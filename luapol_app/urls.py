@@ -1,10 +1,12 @@
 from django.urls import path
 from . import views
 from django.contrib.auth import views as auth_views
+from django.views.generic.base import RedirectView
 
 app_name = 'luapol_app'
 
 urlpatterns = [
+    path('', RedirectView.as_view(url='/login/', permanent=False), name='home'),  # Redirect root URL to login
     path('login/', views.login_view, name='login'),
     path('register/', views.register_view, name='register'),
     path('verification-pending/<int:user_id>/', views.verification_pending_view, name='verification_pending'),
