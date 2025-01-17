@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 
 from pathlib import Path
 import dj_database_url
+import os
 
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -22,12 +23,14 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-qlvrwzi^udupn6wj#4%9ehv-ghtb(z1k6zc4gpv$1)6j%+km76'
+SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = os.environ.get('DEBUG').lower() == 'true'
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS').split(" ")  # Cambia esto al dominio de tu aplicación en Render
+# Para desarrollo local, puedes agregar también '127.0.0.1' o localhost si lo necesitas.
+
 
 # Application definition
 
@@ -81,6 +84,9 @@ DATABASES = {
     )
 }
 
+#"postgresql://luapol_app_postgresql_user:p43wzM5YkeifJkdEIxy7z2bzg6kdYMbb@dpg-cu3mf4l2ng1s73cbitog-a.frankfurt-postgres.render.com/luapol_app_postgresql"
+
+
 # Password validation
 # https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators
 
@@ -122,15 +128,20 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-# Configuración de correo en settings.py
+# Configuración de correo
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.gmail.com'  # Servidor SMTP de Gmail
-EMAIL_PORT = 587  # Puerto para TLS
-EMAIL_USE_TLS = True  # Usa TLS para asegurar la conexión
-EMAIL_HOST_USER = 'luapol247@gmail.com'  # Tu dirección de correo
-EMAIL_HOST_PASSWORD = 'uomh zetv iazs bnoj'  # Contraseña de aplicación de Gmail
-DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER')
+EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD')
 
-# Configuración para la construcción de URLs en los correos electrónicos
+# Configuración del dominio y protocolo
 PROTOCOL = 'http'  # Cambia a 'https' si tu servidor usa HTTPS en producción
 DOMAIN = '127.0.0.1:8000'  # Cambia al dominio real en producción
+
+'''
+# Configuración para la construcción de URLs en los correos electrónicos
+PROTOCOL = os.environ.get('PROTOCOL')
+DOMAIN = os.environ.get('DOMAIN')
+'''
