@@ -136,12 +136,6 @@ EMAIL_USE_TLS = True
 EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER')
 EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD')
 
-# Configuración del dominio y protocolo
-PROTOCOL = 'http'  # Cambia a 'https' si tu servidor usa HTTPS en producción
-DOMAIN = '127.0.0.1:8000'  # Cambia al dominio real en producción
-
-'''
 # Configuración para la construcción de URLs en los correos electrónicos
 PROTOCOL = os.environ.get('PROTOCOL')
 DOMAIN = os.environ.get('DOMAIN')
-'''
