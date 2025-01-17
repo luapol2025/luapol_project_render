@@ -1,0 +1,100 @@
+{% extends 'base.html' %}
+
+{% block title %}Realizar Test{% endblock %}
+
+{% block content %}
+<div class="container mt-4">
+    <h1 class="text-center mb-4">Test</h1>
+    <h3 class="text-center mb-4">¡A por ello!</h3>
+
+    {% if test.tipo == 'SIMULATION' %}
+    <div class="alert alert-warning text-center">
+        <p>Tiempo restante: <span id="countdown"></span></p>
+    </div>
+    {% endif %}
+
+    <form id="testForm" method="post" class="mt-4">
+        {% csrf_token %}
+
+        <div class="row">
+            {% for question in form %}
+                <div class="col-12 mb-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">{{ question.label }}</h5>
+                            <div class="card-text">
+                                {{ question }}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+
+        <div class="text-center mt-4">
+            {% csrf_token %}
+            <button type="submit" name="submit_btn" class="btn btn-primary btn-lg me-3">Enviar respuestas</button>
+            <button type="submit" name="exit_btn" class="btn btn-danger btn-lg">Finalizar Test</button>
+        </div>
+    </form>
+</div>
+
+<script>
+    var timeLeft = "{{ remaining_time }}"; // Tiempo inicial en segundos
+    var countdown = document.getElementById('countdown');
+
+    var timer = setInterval(function() {
+        var minutes = Math.floor(timeLeft / 60);
+        var seconds = timeLeft % 60;
+        countdown.innerHTML = minutes + "m " + (seconds < 10 ? "0" + seconds : seconds) + "s";
+        timeLeft--;
+
+        if (timeLeft < 0) {
+            clearInterval(timer); // Detener el contador
+            countdown.innerHTML = "Tiempo Expirado"; // Mostrar mensaje en el contador
+
+            // Mostrar un mensaje visual adicional
+            var messageContainer = document.createElement("div");
+            messageContainer.className = "alert alert-danger text-center mt-4";
+            messageContainer.innerText = "El tiempo para este examen ha expirado. Finalizando...";
+            document.body.prepend(messageContainer); // Agregar el mensaje al inicio del cuerpo
+
+            // Enviar solicitud al servidor para finalizar el test automáticamente
+            fetch("{% url 'luapol_app:finalize_test' test.id %}", {
+                method: "POST",
+                headers: {
+                    "X-CSRFToken": "{{ csrf_token }}",
+                    "Content-Type": "application/json",
+                },
+            })
+            .then(response => {
+                if (response.redirected) {
+                    // Seguir la redirección automáticamente
+                    window.location.href = response.url;
+                } else {
+                    console.log("Test finalizado, pero no redirigido.");
+                }
+            })
+            .catch(error => {
+                console.error("Error al finalizar el test:", error);
+
+                // Actualizar el mensaje visual con información del error
+                //messageContainer.innerText = "Error al finalizar el test. Por favor, recarga la página.";
+            });
+        }
+    }, 1000);
+
+    // Capturar el valor del temporizador antes de abandonar la página
+    window.addEventListener("beforeunload", function () {
+        if (typeof timeLeft !== "undefined" && timeLeft >= 0) {
+            // Enviar el tiempo restante al servidor
+            navigator.sendBeacon("{% url 'luapol_app:test_save_remaining_time' test.id %}", JSON.stringify({
+                remaining_time: timeLeft,
+            }));
+        }
+    });
+</script>
+
+
+{% endblock %}
+

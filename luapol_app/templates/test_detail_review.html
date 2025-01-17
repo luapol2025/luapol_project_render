@@ -1,0 +1,92 @@
+{% extends 'base.html' %}
+
+{% block title %}Test Review{% endblock %}
+
+{% block content %}
+<div class="container mt-4">
+    <h1 class="text-center">Resultados del Test</h1>
+
+    <ul class="list-group mt-4">
+        {% for pregunta_test in preguntas_test %}
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <!-- Contenedor del texto -->
+                <div>
+                    <p><strong>{{ pregunta_test.pregunta_fk.pregunta }}</strong></p>
+                    <p>Tu respuesta: {{ pregunta_test.respuesta_seleccionada_fk.descripcion }}</p>
+                    <p class="{% if pregunta_test.es_correcta %}text-success{% else %}text-danger{% endif %}">
+                        Correcta: {{ pregunta_test.es_correcta|yesno:"Sí,No" }}
+                    </p>
+                    <button class="btn btn-info btn-sm mt-2" type="button" data-bs-toggle="collapse" 
+                            data-bs-target="#explicacion-{{ pregunta_test.id }}" aria-expanded="false" 
+                            aria-controls="explicacion-{{ pregunta_test.id }}">
+                        Mostrar explicación
+                    </button>
+                    <div class="collapse mt-2" id="explicacion-{{ pregunta_test.id }}">
+                        <div class="card card-body">
+                            {% for respuesta in pregunta_test.pregunta_fk.respuestas.all %}
+                                {% if respuesta.es_correcta %}
+                                    <p><strong>Respuesta correcta:</strong> {{ respuesta.descripcion }}</p>
+                                    <p><strong>Explicación:</strong> {{ respuesta.comentarios }}</p>
+                                {% endif %}
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+                <!-- Contenedor de los botones en diseño vertical -->
+                <div class="d-flex flex-column align-items-center">
+                    <button 
+                        class="favorite-form mb-2 btn btn-outline-warning" 
+                        data-id="{{ pregunta_test.id }}" 
+                        id="favorito-btn-{{ pregunta_test.id }}"
+                    >
+                        <i class="fa {% if pregunta_test.es_favorita %}fa-solid fa-star{% else %}fa-regular fa-star{% endif %} fa-lg"></i>
+                    </button>
+                    <a href="{% url 'luapol_app:forum_entries_for_question' %}?pregunta={{ pregunta_test.pregunta_fk.id_pregunta }}&test_id={{ pregunta_test.test_fk_id }}" 
+                        class="btn btn-outline-info">
+                        <i class="fa fa-comments"></i>
+                    </a>
+                </div>
+            </li>
+        {% endfor %}
+    </ul>
+    
+    <p class="mt-4">Total de aciertos: {{ test.aciertos }} de {{ preguntas_test.count }}</p>
+</div>
+
+<script>
+    // Manejar el cambio de estado de favoritos
+    document.addEventListener('DOMContentLoaded', () => {
+    document.querySelectorAll('.favorite-form').forEach(button => {
+        button.addEventListener('click', function () {
+            const preguntaId = this.getAttribute('data-id');
+            const url = "{% url 'luapol_app:toggle_favorita' 0 %}".replace('0', preguntaId);
+
+            fetch(url, {
+                method: 'POST',
+                headers: {
+                    'X-CSRFToken': '{{ csrf_token }}',
+                    'Content-Type': 'application/json',
+                },
+            })
+            .then(response => response.json())
+            .then(data => {
+                console.log('Respuesta del servidor:', data); // Log para verificar la respuesta
+                if (data.favorita !== undefined) {
+                    const icon = this.querySelector('i'); // Selecciona el icono dentro del botón clicado
+                    if (data.favorita) {
+                        icon.classList.add('fa-solid');
+                        icon.classList.remove('fa-regular');
+                    } else {
+                        icon.classList.add('fa-regular');
+                        icon.classList.remove('fa-solid');
+                    }
+                } else {
+                    console.error('El servidor no devolvió el campo "favorita".');
+                }
+            })
+            .catch(error => console.error('Error al procesar la solicitud:', error));
+        });
+    });
+});
+</script>
+{% endblock %}

@@ -1,0 +1,26 @@
+Quiero generar un plan de estudio adaptado para un usuario basado en los siguientes datos:
+
+1. **Horas de estudio disponibles por día:** 3 horas
+2. **Días de estudio por semana:** 5 días
+3. **Duración total del estudio en semanas:** 6 semanas
+4. **Temario a estudiar:** [Adjuntar o listar temas]
+5. **Distribución del temario a lo largo de las semanas:** Proporcional, aumentando la intensidad en las primeras semanas.
+6. **Test de práctica:** 3 tests de práctica distribuidos durante el plan (sin tiempo de resolución)
+7. **Test de simulación:** 1 test de simulación con 2 horas de duración al final del periodo de estudio
+
+### **Formato de respuesta esperado:**
+El output debe ser un CSV con las siguientes columnas:
+- **title**: Un identificador numérico o título para cada actividad.
+- **description**: La descripción de la actividad, ya sea "Estudio: [Temas a estudiar]", "Test de práctica", o "Test de simulación con duración de [X horas]".
+- **start_time**: La fecha y hora de inicio de la actividad.
+- **end_time**: La fecha y hora de finalización de la actividad.
+
+Ejemplo del CSV esperado:
+```csv
+title,description,start_time,end_time
+1,Estudio: Geografía - Capitales,2024-07-19 18:00:00,2024-07-19 20:00:00
+2,Estudio: Geografía - Ríos,2024-07-21 18:00:00,2024-07-21 20:00:00
+3,Estudio: Geografía - Montañas,2024-07-23 18:00:00,2024-07-23 20:00:00
+4,Test de práctica,2024-07-25 18:00:00,2024-07-25 20:00:00
+5,Estudio: Historia - Antigua,2024-07-27 18:00:00,2024-07-27 20:00:00
+6,Test de simulación con duración de 2 horas,2024-07-29 18:00:00,2024-07-29 20:00:00

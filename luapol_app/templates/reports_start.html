@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block title %}Reports - LUAPOL{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <h1 class="text-center mb-4">Sección de Reports</h1>
+    <p class="lead text-center">Elige el tipo de reporte que deseas consultar:</p>
+
+    <div class="list-group">
+        <a href="{% url 'luapol_app:general_progress' %}" class="list-group-item list-group-item-action">
+            Estadísticas Generales de Progreso
+        </a>
+        <a href="{% url 'luapol_app:average_attempts' %}" class="list-group-item list-group-item-action">
+            Estadísticas por Tema y Subtema
+        </a>
+        <a href="{% url 'luapol_app:user_ranking' %}" class="list-group-item list-group-item-action">
+            Ranking Global de Usuarios
+        </a>
+    </div>
+</div>
+{% endblock %}

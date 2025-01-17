@@ -1,0 +1,161 @@
+{% extends 'base.html' %}
+
+{% block title %}Lista de Tests{% endblock %}
+
+{% block content %}
+<div class="container mt-4">
+    <h1 class="text-center">Lista de Tests</h1>
+
+    <div class="mb-4 d-flex justify-content-center">
+        <a href="{% url 'luapol_app:create_test' %}" class="btn btn-primary mx-2">Crear Test de Práctica</a>
+        <a href="{% url 'luapol_app:create_simulation' %}" class="btn btn-success mx-2">Crear Simulación</a>
+    </div>
+
+    <!-- Sección de Tests de Práctica -->
+    <div class="card mb-4">
+        <div class="card-header bg-info text-white">
+            <h2 class="mb-0">Tests de Práctica</h2>
+        </div>
+        <div class="card-body">
+            <h3>Pendientes</h3>
+            <ul class="list-group mb-3">
+                {% if tests_practica.pendientes %}
+                    {% for test in tests_practica.pendientes %}
+                        <li class="list-group-item">
+                            <a href="{% url 'luapol_app:test_detail' test.id %}">Test {{ test.id }}</a>
+                        </li>
+                    {% endfor %}
+                {% else %}
+                    <li class="list-group-item text-center">¡No hay tests pendientes! ¡Sigue adelante y mantén el buen trabajo!</li>
+                {% endif %}
+            </ul>
+
+            <h3>Aprobados</h3>
+            <ul class="list-group mb-3">
+                {% if tests_practica.aprobados %}
+                    {% for test in tests_practica.aprobados %}
+                        <li class="list-group-item">
+                            <a href="{% url 'luapol_app:test_detail' test.id %}">Test {{ test.id }}</a>
+                            <span class="text-muted">Completado el: {{ test.fecha_submision|date:"d/m/Y H:i" }}</span>
+                        </li>
+                    {% endfor %}
+                {% else %}
+                    <li class="list-group-item text-center">¡Aún no tienes tests aprobados, pero estás en el camino correcto!</li>
+                {% endif %}
+            </ul>
+
+            <h3>Suspendidos</h3>
+            <ul class="list-group">
+                {% if tests_practica.suspendidos %}
+                    {% for test in tests_practica.suspendidos %}
+                        <li class="list-group-item">
+                            <a href="{% url 'luapol_app:test_detail' test.id %}">Test {{ test.id }}</a>
+                            <span class="text-muted">Completado el: {{ test.fecha_submision|date:"d/m/Y H:i" }}</span>
+                        </li>
+                    {% endfor %}
+                {% else %}
+                    <li class="list-group-item text-center">¡Nada que temer, no hay tests suspendidos!</li>
+                {% endif %}
+            </ul>
+        </div>
+    </div>
+
+    <!-- Sección de Tests de Simulación -->
+    <div class="card mb-4">
+        <div class="card-header bg-warning text-white">
+            <h2 class="mb-0">Tests de Simulación</h2>
+        </div>
+        <div class="card-body">
+            <h3>Pendientes</h3>
+            <ul class="list-group mb-3">
+                {% if tests_simulacion.pendientes %}
+                    {% for test in tests_simulacion.pendientes %}
+                        <li class="list-group-item">
+                            <a href="{% url 'luapol_app:test_detail' test.id %}">Test {{ test.id }}</a>
+                        </li>
+                    {% endfor %}
+                {% else %}
+                    <li class="list-group-item text-center">¡Ningún test pendiente aquí! ¡Sigue preparándote, lo estás haciendo genial!</li>
+                {% endif %}
+            </ul>
+
+            <h3>Aprobados</h3>
+            <ul class="list-group mb-3">
+                {% if tests_simulacion.aprobados %}
+                    {% for test in tests_simulacion.aprobados %}
+                        <li class="list-group-item">
+                            <a href="{% url 'luapol_app:test_detail' test.id %}">Test {{ test.id }}</a>
+                            <span class="text-muted">Completado el: {{ test.fecha_submision|date:"d/m/Y H:i" }}</span>
+                        </li>
+                    {% endfor %}
+                {% else %}
+                    <li class="list-group-item text-center">¡Todavía no has aprobado, pero cada intento es un paso adelante!</li>
+                {% endif %}
+            </ul>
+
+            <h3>Suspendidos</h3>
+            <ul class="list-group">
+                {% if tests_simulacion.suspendidos %}
+                    {% for test in tests_simulacion.suspendidos %}
+                        <li class="list-group-item">
+                            <a href="{% url 'luapol_app:test_detail' test.id %}">Test {{ test.id }}</a>
+                            <span class="text-muted">Completado el: {{ test.fecha_submision|date:"d/m/Y H:i" }}</span>
+                        </li>
+                    {% endfor %}
+                {% else %}
+                    <li class="list-group-item text-center">¡Ningún test suspendido! ¡Mantén la confianza y sigue adelante!</li>
+                {% endif %}
+            </ul>
+        </div>
+    </div>
+
+    <!-- Sección de Tests Parciales -->
+    <div class="card">
+        <div class="card-header bg-secondary text-white">
+            <h2 class="mb-0">Tests Parciales</h2>
+        </div>
+        <div class="card-body">
+            <h3>Pendientes</h3>
+            <ul class="list-group mb-3">
+                {% if tests_parcial.pendientes %}
+                    {% for test in tests_parcial.pendientes %}
+                        <li class="list-group-item">
+                            <a href="{% url 'luapol_app:test_detail' test.id %}">Test {{ test.id }}</a>
+                        </li>
+                    {% endfor %}
+                {% else %}
+                    <li class="list-group-item text-center">¡Sin tests pendientes aquí! ¡Continúa avanzando, lo estás haciendo excelente!</li>
+                {% endif %}
+            </ul>
+
+            <h3>Aprobados</h3>
+            <ul class="list-group mb-3">
+                {% if tests_parcial.aprobados %}
+                    {% for test in tests_parcial.aprobados %}
+                        <li class="list-group-item">
+                            <a href="{% url 'luapol_app:test_detail' test.id %}">Test {{ test.id }}</a>
+                            <span class="text-muted">Completado el: {{ test.fecha_submision|date:"d/m/Y H:i" }}</span>
+                        </li>
+                    {% endfor %}
+                {% else %}
+                    <li class="list-group-item text-center">¡Aún no has aprobado, pero cada esfuerzo te lleva más cerca del éxito!</li>
+                {% endif %}
+            </ul>
+
+            <h3>Suspendidos</h3>
+            <ul class="list-group">
+                {% if tests_parcial.suspendidos %}
+                    {% for test in tests_parcial.suspendidos %}
+                        <li class="list-group-item">
+                            <a href="{% url 'luapol_app:test_detail' test.id %}">Test {{ test.id }}</a>
+                            <span class="text-muted">Completado el: {{ test.fecha_submision|date:"d/m/Y H:i" }}</span>
+                        </li>
+                    {% endfor %}
+                {% else %}
+                    <li class="list-group-item text-center">¡Sin tests suspendidos! ¡Estás haciendo un gran trabajo!</li>
+                {% endif %}
+            </ul>
+        </div>
+    </div>
+</div>
+{% endblock %}

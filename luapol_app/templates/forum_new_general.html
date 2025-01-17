@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% block title %}Nuevo Tema General{% endblock %}
+
+{% block content %}
+<div class="container mt-4">
+    <h1 class="mb-3">Crear Nuevo Tema General</h1>
+	<div class="card shadow-sm">
+        <div class="card-body">
+            <form method="post">
+                {% csrf_token %}
+
+                <!-- Tipo de Entrada -->
+                <div class="form-group mb-4">
+                    <label for="tipo_entrada" class="font-weight-bold">Tipo de Entrada:</label>
+                    <span id="tipo_entrada">Entrada General</span>
+                </div>
+                				
+				<!-- Tema Relacionado -->
+                <div class="form-group mb-4">
+                    <label for="asunto" class="font-weight-bold">Tema:</label>
+                    {{ form.id_tema }}
+                </div>
+
+                <!-- Asunto -->
+                <div class="form-group mb-4">
+                    <label for="asunto" class="font-weight-bold">Asunto:</label>
+                    {{ form.asunto }}
+                </div>
+
+                <!-- Contenido -->
+                <div class="form-group mb-4">
+                    <label for="contenido" class="font-weight-bold">Contenido:</label>
+                    {{ form.contenido }}
+                </div>
+
+                <!-- Botones -->
+                <div class="d-flex justify-content-between">
+                    <a href="{% url 'luapol_app:forum_list' %}" class="btn btn-outline-secondary">Volver al Foro</a>
+                    <button type="submit" class="btn btn-outline-primary">Crear Discusión</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}

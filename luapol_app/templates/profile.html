@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% block title %}Mi Perfil{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h1 class="mb-4">Mi Perfil</h1>
+    
+    <!-- Información del Usuario -->
+    <div class="card mb-3 p-3">
+        <h5>Información Personal</h5>
+        <p><strong>Nombre de Usuario:</strong> {{ user.username }}</p>
+        <p><strong>Email:</strong> {{ user.email }}</p>
+        <p><strong>Nombre Completo:</strong> {{ user.first_name }} {{ user.last_name }}</p>
+        <p><strong>Fecha de Registro:</strong> {{ user.date_joined }}</p>
+    </div>
+
+    <!-- Acciones -->
+    <div class="d-flex flex-column align-items-start mb-3">
+        <a href="{% url 'luapol_app:change_password' %}" class="btn btn-outline-primary mb-2">Cambiar Contraseña</a>
+        <a href="{% url 'luapol_app:edit_profile' %}" class="btn btn-outline-secondary mb-2">Editar Información</a>
+    </div>
+    
+    <!-- Política de Privacidad -->
+    <p><a href="{% url 'luapol_app:privacy_policy' %}">Política de Privacidad</a></p>
+    
+    <!-- Botón de Logout -->
+    <form method="post" action="{% url 'luapol_app:logout' %}">
+        {% csrf_token %}
+        <button type="submit" class="btn btn-danger mt-3">Cerrar Sesión</button>
+    </form>
+</div>
+{% endblock %}

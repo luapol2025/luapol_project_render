@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+{% block title %}Entradas del Foro - Pregunta{% endblock %}
+
+{% block content %}
+<div class="container mt-4">
+    <!-- Título -->
+    <h1 class="text-center">Entradas relacionadas con esta pregunta</h1>
+    <p class="text-center text-muted">Revisa las entradas antes de crear una nueva.</p>
+
+    <!-- Lista de entradas -->
+    <div class="mt-4">
+        {% if entradas %}
+            {% for entrada in entradas %}
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <a href="{% url 'luapol_app:forum_detail' entrada.id %}" class="text-primary">{{ entrada.asunto }}</a>
+                        </h5>
+                        <p class="card-text">{{ entrada.contenido|truncatewords:20 }}</p>
+                        <small class="text-muted">
+                            Creado por {{ entrada.creado_por }} el {{ entrada.fecha_creacion }}
+                        </small>
+                    </div>
+                </div>
+            {% endfor %}
+        {% else %}
+            <p class="text-muted">No hay entradas relacionadas con esta pregunta. Puedes crear una nueva.</p>
+        {% endif %}
+    </div>
+    
+    <!-- Botones de navegación -->
+    <div class="d-flex justify-content-between mt-4">
+        <a href="{% url 'luapol_app:test_detail_review' test_id %}" class="btn btn-outline-secondary">
+            Volver a Revisión
+        </a>
+        <a href="{% url 'luapol_app:forum_new_pregunta' %}?pregunta={{ pregunta.id_pregunta }}&test_id={{ test_id }}" 
+           class="btn btn-outline-primary">
+            Crear Nueva Entrada
+        </a>
+    </div>
+</div>
+{% endblock %}

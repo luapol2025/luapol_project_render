@@ -1,0 +1,161 @@
+ID Pregunta|ID Tema|Tema|ID SubTema|Subtema|n Pregunta|Pregunta|ID Respuesta|n Respuesta|Es Correcta|Descripcio|Comentaris
+PN1111|1|Geografía|11|Capitales|1|¿Cuál es la capital de Francia?|PN11111|1|Sí|París|Sin comentarios
+PN1111|1|Geografía|11|Capitales|1|¿Cuál es la capital de Francia?|PN11112|2|No|Londres|Sin comentarios
+PN1111|1|Geografía|11|Capitales|1|¿Cuál es la capital de Francia?|PN11113|3|No|Berlín|Sin comentarios
+PN1111|1|Geografía|11|Capitales|1|¿Cuál es la capital de Francia?|PN11114|4|No|Madrid|Sin comentarios
+PN1112|1|Geografía|11|Capitales|2|¿Cuál es la capital de España?|PN11121|1|Sí|Madrid|Sin comentarios
+PN1112|1|Geografía|11|Capitales|2|¿Cuál es la capital de España?|PN11122|2|No|Barcelona|Sin comentarios
+PN1112|1|Geografía|11|Capitales|2|¿Cuál es la capital de España?|PN11123|3|No|Sevilla|Sin comentarios
+PN1112|1|Geografía|11|Capitales|2|¿Cuál es la capital de España?|PN11124|4|No|Valencia|Sin comentarios
+PN1113|1|Geografía|11|Capitales|3|¿Cuál es la capital de Alemania?|PN11131|1|Sí|Berlín|Sin comentarios
+PN1113|1|Geografía|11|Capitales|3|¿Cuál es la capital de Alemania?|PN11132|2|No|Múnich|Sin comentarios
+PN1113|1|Geografía|11|Capitales|3|¿Cuál es la capital de Alemania?|PN11133|3|No|Fráncfort|Sin comentarios
+PN1113|1|Geografía|11|Capitales|3|¿Cuál es la capital de Alemania?|PN11134|4|No|Hamburgo|Sin comentarios
+PN1114|1|Geografía|11|Capitales|4|¿Cuál es la capital de Italia?|PN11141|1|Sí|Roma|Sin comentarios
+PN1114|1|Geografía|11|Capitales|4|¿Cuál es la capital de Italia?|PN11142|2|No|Milán|Sin comentarios
+PN1114|1|Geografía|11|Capitales|4|¿Cuál es la capital de Italia?|PN11143|3|No|Venecia|Sin comentarios
+PN1114|1|Geografía|11|Capitales|4|¿Cuál es la capital de Italia?|PN11144|4|No|Nápoles|Sin comentarios
+PN1115|1|Geografía|11|Capitales|5|¿Cuál es la capital de Japón?|PN11151|1|Sí|Tokio|Sin comentarios
+PN1115|1|Geografía|11|Capitales|5|¿Cuál es la capital de Japón?|PN11152|2|No|Osaka|Sin comentarios
+PN1115|1|Geografía|11|Capitales|5|¿Cuál es la capital de Japón?|PN11153|3|No|Kioto|Sin comentarios
+PN1115|1|Geografía|11|Capitales|5|¿Cuál es la capital de Japón?|PN11154|4|No|Nagoya|Sin comentarios
+PN1126|1|Geografía|12|Ríos|6|¿Cuál es el río más largo del mundo?|PN11261|1|Sí|Nilo|Sin comentarios
+PN1126|1|Geografía|12|Ríos|6|¿Cuál es el río más largo del mundo?|PN11262|2|No|Amazonas|Sin comentarios
+PN1126|1|Geografía|12|Ríos|6|¿Cuál es el río más largo del mundo?|PN11263|3|No|Yangtsé|Sin comentarios
+PN1126|1|Geografía|12|Ríos|6|¿Cuál es el río más largo del mundo?|PN11264|4|No|Misisipi|Sin comentarios
+PN1127|1|Geografía|12|Ríos|7|¿Cuál es el río más caudaloso del mundo?|PN11271|1|Sí|Amazonas|Sin comentarios
+PN1127|1|Geografía|12|Ríos|7|¿Cuál es el río más caudaloso del mundo?|PN11272|2|No|Nilo|Sin comentarios
+PN1127|1|Geografía|12|Ríos|7|¿Cuál es el río más caudaloso del mundo?|PN11273|3|No|Yangtsé|Sin comentarios
+PN1127|1|Geografía|12|Ríos|7|¿Cuál es el río más caudaloso del mundo?|PN11274|4|No|Misisipi|Sin comentarios
+PN1128|1|Geografía|12|Ríos|8|¿Cuál es el río más largo de Europa?|PN11281|1|Sí|Volga|Sin comentarios
+PN1128|1|Geografía|12|Ríos|8|¿Cuál es el río más largo de Europa?|PN11282|2|No|Danubio|Sin comentarios
+PN1128|1|Geografía|12|Ríos|8|¿Cuál es el río más largo de Europa?|PN11283|3|No|Rin|Sin comentarios
+PN1128|1|Geografía|12|Ríos|8|¿Cuál es el río más largo de Europa?|PN11284|4|No|Dniéper|Sin comentarios
+PN1129|1|Geografía|12|Ríos|9|¿Cuál es el río más largo de Asia?|PN11291|1|Sí|Yangtsé|Sin comentarios
+PN1129|1|Geografía|12|Ríos|9|¿Cuál es el río más largo de Asia?|PN11292|2|No|Amur|Sin comentarios
+PN1129|1|Geografía|12|Ríos|9|¿Cuál es el río más largo de Asia?|PN11293|3|No|Lena|Sin comentarios
+PN1129|1|Geografía|12|Ríos|9|¿Cuál es el río más largo de Asia?|PN11294|4|No|Ob|Sin comentarios
+PN11310|1|Geografía|13|Montañas|10|¿Cuál es la montaña más alta del mundo?|PN113101|1|Sí|Everest|Sin comentarios
+PN11310|1|Geografía|13|Montañas|10|¿Cuál es la montaña más alta del mundo?|PN113102|2|No|K2|Sin comentarios
+PN11310|1|Geografía|13|Montañas|10|¿Cuál es la montaña más alta del mundo?|PN113103|3|No|Kangchenjunga|Sin comentarios
+PN11310|1|Geografía|13|Montañas|10|¿Cuál es la montaña más alta del mundo?|PN113104|4|No|Lhotse|Sin comentarios
+PN11311|1|Geografía|13|Montañas|11|¿Cuál es la montaña más alta de América del Sur?|PN113111|1|Sí|Aconcagua|Sin comentarios
+PN11311|1|Geografía|13|Montañas|11|¿Cuál es la montaña más alta de América del Sur?|PN113112|2|No|Huascarán|Sin comentarios
+PN11311|1|Geografía|13|Montañas|11|¿Cuál es la montaña más alta de América del Sur?|PN113113|3|No|Chimborazo|Sin comentarios
+PN11311|1|Geografía|13|Montañas|11|¿Cuál es la montaña más alta de América del Sur?|PN113114|4|No|Cotopaxi|Sin comentarios
+PN11312|1|Geografía|13|Montañas|12|¿Cuál es la montaña más alta de Europa?|PN113121|1|Sí|Elbrús|Sin comentarios
+PN11312|1|Geografía|13|Montañas|12|¿Cuál es la montaña más alta de Europa?|PN113122|2|No|Mont Blanc|Sin comentarios
+PN11312|1|Geografía|13|Montañas|12|¿Cuál es la montaña más alta de Europa?|PN113123|3|No|Matterhorn|Sin comentarios
+PN11312|1|Geografía|13|Montañas|12|¿Cuál es la montaña más alta de Europa?|PN113124|4|No|Dufourspitze|Sin comentarios
+PN11313|1|Geografía|13|Montañas|13|¿Cuál es la montaña más alta de África?|PN113131|1|Sí|Kilimanjaro|Sin comentarios
+PN11313|1|Geografía|13|Montañas|13|¿Cuál es la montaña más alta de África?|PN113132|2|No|Kenia|Sin comentarios
+PN11313|1|Geografía|13|Montañas|13|¿Cuál es la montaña más alta de África?|PN113133|3|No|Ras Dashen|Sin comentarios
+PN11313|1|Geografía|13|Montañas|13|¿Cuál es la montaña más alta de África?|PN113134|4|No|Simien|Sin comentarios
+PN22114|2|Historia|21|Antigua|14|¿Quién fue el primer emperador romano?|PN221141|1|Sí|Augusto|Sin comentarios
+PN22114|2|Historia|21|Antigua|14|¿Quién fue el primer emperador romano?|PN221142|2|No|Julio César|Sin comentarios
+PN22114|2|Historia|21|Antigua|14|¿Quién fue el primer emperador romano?|PN221143|3|No|Nerón|Sin comentarios
+PN22114|2|Historia|21|Antigua|14|¿Quién fue el primer emperador romano?|PN221144|4|No|Tiberio|Sin comentarios
+PN22115|2|Historia|21|Antigua|15|¿Quién construyó la Gran Muralla China?|PN221151|1|Sí|Qin Shi Huang|Sin comentarios
+PN22115|2|Historia|21|Antigua|15|¿Quién construyó la Gran Muralla China?|PN221152|2|No|Gengis Kan|Sin comentarios
+PN22115|2|Historia|21|Antigua|15|¿Quién construyó la Gran Muralla China?|PN221153|3|No|Liu Bang|Sin comentarios
+PN22115|2|Historia|21|Antigua|15|¿Quién construyó la Gran Muralla China?|PN221154|4|No|Kublai Kan|Sin comentarios
+PN22116|2|Historia|21|Antigua|16|¿Cuál fue la primera civilización en usar escritura?|PN221161|1|Sí|Sumerios|Sin comentarios
+PN22116|2|Historia|21|Antigua|16|¿Cuál fue la primera civilización en usar escritura?|PN221162|2|No|Egipcios|Sin comentarios
+PN22116|2|Historia|21|Antigua|16|¿Cuál fue la primera civilización en usar escritura?|PN221163|3|No|Mayas|Sin comentarios
+PN22116|2|Historia|21|Antigua|16|¿Cuál fue la primera civilización en usar escritura?|PN221164|4|No|Fenicios|Sin comentarios
+PN22117|2|Historia|21|Antigua|17|¿Cuál fue la capital del Imperio Asirio?|PN221171|1|Sí|Nínive|Sin comentarios
+PN22117|2|Historia|21|Antigua|17|¿Cuál fue la capital del Imperio Asirio?|PN221172|2|No|Babilonia|Sin comentarios
+PN22117|2|Historia|21|Antigua|17|¿Cuál fue la capital del Imperio Asirio?|PN221173|3|No|Ur|Sin comentarios
+PN22117|2|Historia|21|Antigua|17|¿Cuál fue la capital del Imperio Asirio?|PN221174|4|No|Akkad|Sin comentarios
+PN22118|2|Historia|21|Antigua|18|¿Cuál fue la principal ciudad de los fenicios?|PN221181|1|Sí|Tiro|Sin comentarios
+PN22118|2|Historia|21|Antigua|18|¿Cuál fue la principal ciudad de los fenicios?|PN221182|2|No|Sidón|Sin comentarios
+PN22118|2|Historia|21|Antigua|18|¿Cuál fue la principal ciudad de los fenicios?|PN221183|3|No|Biblos|Sin comentarios
+PN22118|2|Historia|21|Antigua|18|¿Cuál fue la principal ciudad de los fenicios?|PN221184|4|No|Cartago|Sin comentarios
+PN22119|2|Historia|21|Antigua|19|¿Quién fue el primer faraón de Egipto?|PN221191|1|Sí|Narmer|Sin comentarios
+PN22119|2|Historia|21|Antigua|19|¿Quién fue el primer faraón de Egipto?|PN221192|2|No|Ramsés II|Sin comentarios
+PN22119|2|Historia|21|Antigua|19|¿Quién fue el primer faraón de Egipto?|PN221193|3|No|Tutankamón|Sin comentarios
+PN22119|2|Historia|21|Antigua|19|¿Quién fue el primer faraón de Egipto?|PN221194|4|No|Keops|Sin comentarios
+PN22120|2|Historia|21|Antigua|20|¿Cuál es la civilización más antigua conocida?|PN221201|1|Sí|Sumerios|Sin comentarios
+PN22120|2|Historia|21|Antigua|20|¿Cuál es la civilización más antigua conocida?|PN221202|2|No|Egipcios|Sin comentarios
+PN22120|2|Historia|21|Antigua|20|¿Cuál es la civilización más antigua conocida?|PN221203|3|No|Mayas|Sin comentarios
+PN22120|2|Historia|21|Antigua|20|¿Cuál es la civilización más antigua conocida?|PN221204|4|No|Fenicios|Sin comentarios
+PN22221|2|Historia|22|Medieval|21|¿Quién fue el primer rey de Inglaterra?|PN222211|1|Sí|Egberto|Sin comentarios
+PN22221|2|Historia|22|Medieval|21|¿Quién fue el primer rey de Inglaterra?|PN222212|2|No|Alfredo el Grande|Sin comentarios
+PN22221|2|Historia|22|Medieval|21|¿Quién fue el primer rey de Inglaterra?|PN222213|3|No|Canuto|Sin comentarios
+PN22221|2|Historia|22|Medieval|21|¿Quién fue el primer rey de Inglaterra?|PN222214|4|No|Enrique I|Sin comentarios
+PN22222|2|Historia|22|Medieval|22|¿Qué evento marcó el inicio de la Edad Media?|PN222221|1|Sí|Caída del Imperio Romano de Occidente|Sin comentarios
+PN22222|2|Historia|22|Medieval|22|¿Qué evento marcó el inicio de la Edad Media?|PN222222|2|No|Coronación de Carlomagno|Sin comentarios
+PN22222|2|Historia|22|Medieval|22|¿Qué evento marcó el inicio de la Edad Media?|PN222223|3|No|Fundación de Constantinopla|Sin comentarios
+PN22222|2|Historia|22|Medieval|22|¿Qué evento marcó el inicio de la Edad Media?|PN222224|4|No|Invasión vikinga|Sin comentarios
+PN22223|2|Historia|22|Medieval|23|¿Qué rey inglés firmó la Carta Magna?|PN222231|1|Sí|Juan sin Tierra|Sin comentarios
+PN22223|2|Historia|22|Medieval|23|¿Qué rey inglés firmó la Carta Magna?|PN222232|2|No|Ricardo Corazón de León|Sin comentarios
+PN22223|2|Historia|22|Medieval|23|¿Qué rey inglés firmó la Carta Magna?|PN222233|3|No|Enrique II|Sin comentarios
+PN22223|2|Historia|22|Medieval|23|¿Qué rey inglés firmó la Carta Magna?|PN222234|4|No|Guillermo el Conquistador|Sin comentarios
+PN22224|2|Historia|22|Medieval|24|¿Qué evento marcó el fin de la Edad Media?|PN222241|1|Sí|Caída de Constantinopla|Sin comentarios
+PN22224|2|Historia|22|Medieval|24|¿Qué evento marcó el fin de la Edad Media?|PN222242|2|No|Descubrimiento de América|Sin comentarios
+PN22224|2|Historia|22|Medieval|24|¿Qué evento marcó el fin de la Edad Media?|PN222243|3|No|Reforma Protestante|Sin comentarios
+PN22224|2|Historia|22|Medieval|24|¿Qué evento marcó el fin de la Edad Media?|PN222244|4|No|Guerra de los Cien Años|Sin comentarios
+PN22225|2|Historia|22|Medieval|25|¿Cuál fue la batalla que detuvo la expansión musulmana en Europa?|PN222251|1|Sí|Batalla de Poitiers|Sin comentarios
+PN22225|2|Historia|22|Medieval|25|¿Cuál fue la batalla que detuvo la expansión musulmana en Europa?|PN222252|2|No|Batalla de Hastings|Sin comentarios
+PN22225|2|Historia|22|Medieval|25|¿Cuál fue la batalla que detuvo la expansión musulmana en Europa?|PN222253|3|No|Batalla de Agincourt|Sin comentarios
+PN22225|2|Historia|22|Medieval|25|¿Cuál fue la batalla que detuvo la expansión musulmana en Europa?|PN222254|4|No|Batalla de Tours|Sin comentarios
+PN22326|2|Historia|23|Moderna|26|¿Quién descubrió América?|PN223261|1|Sí|Cristóbal Colón|Sin comentarios
+PN22326|2|Historia|23|Moderna|26|¿Quién descubrió América?|PN223262|2|No|Américo Vespucio|Sin comentarios
+PN22326|2|Historia|23|Moderna|26|¿Quién descubrió América?|PN223263|3|No|Fernando de Magallanes|Sin comentarios
+PN22326|2|Historia|23|Moderna|26|¿Quién descubrió América?|PN223264|4|No|Hernán Cortés|Sin comentarios
+PN22327|2|Historia|23|Moderna|27|¿Qué país fue el primero en circunnavegar el mundo?|PN223271|1|Sí|España|Sin comentarios
+PN22327|2|Historia|23|Moderna|27|¿Qué país fue el primero en circunnavegar el mundo?|PN223272|2|No|Portugal|Sin comentarios
+PN22327|2|Historia|23|Moderna|27|¿Qué país fue el primero en circunnavegar el mundo?|PN223273|3|No|Inglaterra|Sin comentarios
+PN22327|2|Historia|23|Moderna|27|¿Qué país fue el primero en circunnavegar el mundo?|PN223274|4|No|Francia|Sin comentarios
+PN22328|2|Historia|23|Moderna|28|¿Quién fue el líder de la Revolución Francesa?|PN223281|1|Sí|Maximilien Robespierre|Sin comentarios
+PN22328|2|Historia|23|Moderna|28|¿Quién fue el líder de la Revolución Francesa?|PN223282|2|No|Napoleón Bonaparte|Sin comentarios
+PN22328|2|Historia|23|Moderna|28|¿Quién fue el líder de la Revolución Francesa?|PN223283|3|No|Louis XVI|Sin comentarios
+PN22328|2|Historia|23|Moderna|28|¿Quién fue el líder de la Revolución Francesa?|PN223284|4|No|Georges Danton|Sin comentarios
+PN22329|2|Historia|23|Moderna|29|¿Cuál fue la primera nación en industrializarse?|PN223291|1|Sí|Inglaterra|Sin comentarios
+PN22329|2|Historia|23|Moderna|29|¿Cuál fue la primera nación en industrializarse?|PN223292|2|No|Estados Unidos|Sin comentarios
+PN22329|2|Historia|23|Moderna|29|¿Cuál fue la primera nación en industrializarse?|PN223293|3|No|Alemania|Sin comentarios
+PN22329|2|Historia|23|Moderna|29|¿Cuál fue la primera nación en industrializarse?|PN223294|4|No|Francia|Sin comentarios
+PN22330|2|Historia|23|Moderna|30|"¿Quién escribió ""El origen de las especies""?"|PN223301|1|Sí|Charles Darwin|Sin comentarios
+PN22330|2|Historia|23|Moderna|30|"¿Quién escribió ""El origen de las especies""?"|PN223302|2|No|Isaac Newton|Sin comentarios
+PN22330|2|Historia|23|Moderna|30|"¿Quién escribió ""El origen de las especies""?"|PN223303|3|No|Albert Einstein|Sin comentarios
+PN22330|2|Historia|23|Moderna|30|"¿Quién escribió ""El origen de las especies""?"|PN223304|4|No|Galileo Galilei|Sin comentarios
+PN22431|2|Historia|24|Contemporánea|31|¿Quién fue el presidente de Estados Unidos durante la Segunda Guerra Mundial?|PN224311|1|Sí|Franklin D. Roosevelt|Sin comentarios
+PN22431|2|Historia|24|Contemporánea|31|¿Quién fue el presidente de Estados Unidos durante la Segunda Guerra Mundial?|PN224312|2|No|Harry S. Truman|Sin comentarios
+PN22431|2|Historia|24|Contemporánea|31|¿Quién fue el presidente de Estados Unidos durante la Segunda Guerra Mundial?|PN224313|3|No|Dwight D. Eisenhower|Sin comentarios
+PN22431|2|Historia|24|Contemporánea|31|¿Quién fue el presidente de Estados Unidos durante la Segunda Guerra Mundial?|PN224314|4|No|Woodrow Wilson|Sin comentarios
+PN22432|2|Historia|24|Contemporánea|32|¿En qué año cayó el Muro de Berlín?|PN224321|1|Sí|1989|Sin comentarios
+PN22432|2|Historia|24|Contemporánea|32|¿En qué año cayó el Muro de Berlín?|PN224322|2|No|1991|Sin comentarios
+PN22432|2|Historia|24|Contemporánea|32|¿En qué año cayó el Muro de Berlín?|PN224323|3|No|1987|Sin comentarios
+PN22432|2|Historia|24|Contemporánea|32|¿En qué año cayó el Muro de Berlín?|PN224324|4|No|1990|Sin comentarios
+PN22433|2|Historia|24|Contemporánea|33|¿Cuál fue la primera nación en lanzar un satélite artificial?|PN224331|1|Sí|Unión Soviética|Sin comentarios
+PN22433|2|Historia|24|Contemporánea|33|¿Cuál fue la primera nación en lanzar un satélite artificial?|PN224332|2|No|Estados Unidos|Sin comentarios
+PN22433|2|Historia|24|Contemporánea|33|¿Cuál fue la primera nación en lanzar un satélite artificial?|PN224333|3|No|China|Sin comentarios
+PN22433|2|Historia|24|Contemporánea|33|¿Cuál fue la primera nación en lanzar un satélite artificial?|PN224334|4|No|Reino Unido|Sin comentarios
+PN22434|2|Historia|24|Contemporánea|34|¿Quién fue el primer hombre en pisar la Luna?|PN224341|1|Sí|Neil Armstrong|Sin comentarios
+PN22434|2|Historia|24|Contemporánea|34|¿Quién fue el primer hombre en pisar la Luna?|PN224342|2|No|Buzz Aldrin|Sin comentarios
+PN22434|2|Historia|24|Contemporánea|34|¿Quién fue el primer hombre en pisar la Luna?|PN224343|3|No|Yuri Gagarin|Sin comentarios
+PN22434|2|Historia|24|Contemporánea|34|¿Quién fue el primer hombre en pisar la Luna?|PN224344|4|No|Alan Shepard|Sin comentarios
+PN22435|2|Historia|24|Contemporánea|35|¿En qué año comenzó la Primera Guerra Mundial?|PN224351|1|Sí|1914|Sin comentarios
+PN22435|2|Historia|24|Contemporánea|35|¿En qué año comenzó la Primera Guerra Mundial?|PN224352|2|No|1916|Sin comentarios
+PN22435|2|Historia|24|Contemporánea|35|¿En qué año comenzó la Primera Guerra Mundial?|PN224353|3|No|1912|Sin comentarios
+PN22435|2|Historia|24|Contemporánea|35|¿En qué año comenzó la Primera Guerra Mundial?|PN224354|4|No|1918|Sin comentarios
+PN22436|2|Historia|24|Contemporánea|36|¿Quién fue el líder de la Revolución Rusa de 1917?|PN224361|1|Sí|Vladimir Lenin|Sin comentarios
+PN22436|2|Historia|24|Contemporánea|36|¿Quién fue el líder de la Revolución Rusa de 1917?|PN224362|2|No|Joseph Stalin|Sin comentarios
+PN22436|2|Historia|24|Contemporánea|36|¿Quién fue el líder de la Revolución Rusa de 1917?|PN224363|3|No|Leon Trotsky|Sin comentarios
+PN22436|2|Historia|24|Contemporánea|36|¿Quién fue el líder de la Revolución Rusa de 1917?|PN224364|4|No|Nikolai Bujarin|Sin comentarios
+PN22437|2|Historia|24|Contemporánea|37|¿En qué año terminó la Segunda Guerra Mundial?|PN224371|1|Sí|1945|Sin comentarios
+PN22437|2|Historia|24|Contemporánea|37|¿En qué año terminó la Segunda Guerra Mundial?|PN224372|2|No|1944|Sin comentarios
+PN22437|2|Historia|24|Contemporánea|37|¿En qué año terminó la Segunda Guerra Mundial?|PN224373|3|No|1946|Sin comentarios
+PN22437|2|Historia|24|Contemporánea|37|¿En qué año terminó la Segunda Guerra Mundial?|PN224374|4|No|1943|Sin comentarios
+PN22438|2|Historia|24|Contemporánea|38|¿Quién fue el presidente de Estados Unidos durante la Guerra Civil Americana?|PN224381|1|Sí|Abraham Lincoln|Sin comentarios
+PN22438|2|Historia|24|Contemporánea|38|¿Quién fue el presidente de Estados Unidos durante la Guerra Civil Americana?|PN224382|2|No|Andrew Johnson|Sin comentarios
+PN22438|2|Historia|24|Contemporánea|38|¿Quién fue el presidente de Estados Unidos durante la Guerra Civil Americana?|PN224383|3|No|Ulysses S. Grant|Sin comentarios
+PN22438|2|Historia|24|Contemporánea|38|¿Quién fue el presidente de Estados Unidos durante la Guerra Civil Americana?|PN224384|4|No|James Buchanan|Sin comentarios
+PN22439|2|Historia|24|Contemporánea|39|¿Qué país se independizó de España en 1821?|PN224391|1|Sí|México|Sin comentarios
+PN22439|2|Historia|24|Contemporánea|39|¿Qué país se independizó de España en 1821?|PN224392|2|No|Chile|Sin comentarios
+PN22439|2|Historia|24|Contemporánea|39|¿Qué país se independizó de España en 1821?|PN224393|3|No|Argentina|Sin comentarios
+PN22439|2|Historia|24|Contemporánea|39|¿Qué país se independizó de España en 1821?|PN224394|4|No|Perú|Sin comentarios
+PN22440|2|Historia|24|Contemporánea|40|¿Quién fue el primer presidente de Estados Unidos?|PN224401|1|Sí|George Washington|Sin comentarios
+PN22440|2|Historia|24|Contemporánea|40|¿Quién fue el primer presidente de Estados Unidos?|PN224402|2|No|Thomas Jefferson|Sin comentarios
+PN22440|2|Historia|24|Contemporánea|40|¿Quién fue el primer presidente de Estados Unidos?|PN224403|3|No|John Adams|Sin comentarios
+PN22440|2|Historia|24|Contemporánea|40|¿Quién fue el primer presidente de Estados Unidos?|PN224404|4|No|James Madison|Sin comentarios

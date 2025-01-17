@@ -1,0 +1,94 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container-fluid mt-4">
+    <div class="row">
+        <!-- Columna izquierda: Lista de notificaciones -->
+        <div class="col-md-4 border-end" style="height: 100vh; overflow-y: auto;">
+            <h5 class="text-center">Notificaciones</h5>
+            <ul class="list-group">
+                {% for notification in notifications %}
+                <li class="list-group-item {% if notification.is_read %}bg-light{% else %}bg-white{% endif %} notification-item"
+                    style="cursor: pointer;"  
+                    data-id="{{ notification.id }}">
+                    <div>
+                        {% if not notification.is_read %}
+                        <strong>{{ notification.subject|truncatechars:50 }}</strong>
+                        {% else %}
+                        {{ notification.subject|truncatechars:50 }}
+                        {% endif %}
+                        <p class="text-muted small mb-0">{{ notification.created_at|date:"d M Y, H:i" }}</p>
+                    </div>
+                </li>
+                {% endfor %}
+            </ul>
+
+            <!-- Paginación -->
+            <nav aria-label="Page navigation">
+                <ul class="pagination justify-content-center mt-3">
+                    {% if notifications.has_previous %}
+                    <li class="page-item">
+                        <a class="page-link" href="?page={{ notifications.previous_page_number }}" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                        </a>
+                    </li>
+                    {% endif %}
+                    {% for num in notifications.paginator.page_range %}
+                    <li class="page-item {% if notifications.number == num %}active{% endif %}">
+                        <a class="page-link" href="?page={{ num }}">{{ num }}</a>
+                    </li>
+                    {% endfor %}
+                    {% if notifications.has_next %}
+                    <li class="page-item">
+                        <a class="page-link" href="?page={{ notifications.next_page_number }}" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                        </a>
+                    </li>
+                    {% endif %}
+                </ul>
+            </nav>
+        </div>
+
+        <!-- Columna derecha: Detalle de la notificación -->
+        <div class="col-md-8">
+            <div id="notification-detail" class="p-4">
+                <h5 class="text-center text-muted">Selecciona una notificación</h5>
+                <!-- Aquí se cargará el detalle dinámicamente -->
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const notificationItems = document.querySelectorAll('.notification-item');
+        const detailContainer = document.getElementById('notification-detail');
+
+        // Manejar clics en las notificaciones
+        notificationItems.forEach(item => {
+            item.addEventListener('click', () => {
+                const notificationId = item.getAttribute('data-id');
+
+                // Solicitar detalles de la notificación y marcarla como leída
+                fetch(`/notifications/${notificationId}/detail/`) // Cambia esta ruta a la vista de tu backend
+                    .then(response => response.json())
+                    .then(data => {
+                        // Actualizar el detalle en el panel derecho
+                        detailContainer.innerHTML = `
+                            <h5>${data.subject}</h5>
+                            <p>${data.message}</p>
+                            <small class="text-muted">${data.created_at}</small>
+                        `;
+
+                        // Marcar la notificación como leída en el DOM
+                        item.classList.remove('bg-white');
+                        item.classList.add('bg-light');
+                        item.querySelector('strong')?.replaceWith(document.createTextNode(data.subject));
+                    })
+                    .catch(error => console.error('Error al cargar el detalle de la notificación:', error));
+            });
+        });
+    });
+</script>
+
+{% endblock %}

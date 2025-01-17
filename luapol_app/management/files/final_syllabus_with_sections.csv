@@ -1,0 +1,38 @@
+title_number,description,subtema_id,subtema,page_count,section_id,section_description
+1,Geografía,11,Capitales,5,4,Ciencias Sociales
+1,Geografía,12,Ríos,6,4,Ciencias Sociales
+1,Geografía,13,Montañas,7,4,Ciencias Sociales
+2,Historia,21,Antigua,8,2,Humanidades
+2,Historia,22,Medieval,9,2,Humanidades
+2,Historia,23,Moderna,10,2,Humanidades
+2,Historia,24,Contemporánea,11,2,Humanidades
+3,Ciencia,25,Física,8,1,Ciencias Exactas
+3,Ciencia,26,Química,10,1,Ciencias Exactas
+3,Ciencia,27,Biología,7,1,Ciencias Exactas
+4,Matemáticas,28,Álgebra,14,1,Ciencias Exactas
+4,Matemáticas,29,Geometría,14,1,Ciencias Exactas
+4,Matemáticas,30,Cálculo,12,1,Ciencias Exactas
+5,Literatura,31,Poesía,8,2,Humanidades
+5,Literatura,32,Novela,7,2,Humanidades
+5,Literatura,33,Ensayo,12,2,Humanidades
+6,Arte,34,Pintura,10,3,Artes y Cultura
+6,Arte,35,Escultura,9,3,Artes y Cultura
+6,Arte,36,Arquitectura,7,3,Artes y Cultura
+7,Música,37,Clásica,5,3,Artes y Cultura
+7,Música,38,Jazz,15,3,Artes y Cultura
+7,Música,39,Rock,9,3,Artes y Cultura
+8,Tecnología,40,Informática,12,5,Tecnología e Innovación
+8,Tecnología,41,Robótica,6,5,Tecnología e Innovación
+8,Tecnología,42,Inteligencia Artificial,13,5,Tecnología e Innovación
+9,Filosofía,43,Ética,15,2,Humanidades
+9,Filosofía,44,Metafísica,9,2,Humanidades
+9,Filosofía,45,Epistemología,7,2,Humanidades
+10,Economía,46,Microeconomía,9,4,Ciencias Sociales
+10,Economía,47,Macroeconomía,9,4,Ciencias Sociales
+10,Economía,48,Economía Internacional,9,4,Ciencias Sociales
+11,Psicología,49,Psicoanálisis,10,4,Ciencias Sociales
+11,Psicología,50,Conductismo,8,4,Ciencias Sociales
+11,Psicología,51,Cognitiva,5,4,Ciencias Sociales
+12,Sociología,52,Estructura Social,15,4,Ciencias Sociales
+12,Sociología,53,Cambio Social,13,4,Ciencias Sociales
+12,Sociología,54,Cultura,6,4,Ciencias Sociales

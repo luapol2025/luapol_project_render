@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+
+{% block title %}Crear una Nueva Discusión{% endblock %}
+
+{% block content %}
+<div class="container mt-4">
+    <h1 class="text-center mb-4">Crear una Nueva Discusión</h1>
+    <div class="card shadow-sm">
+        <div class="card-body">
+            <form method="post">
+                {% csrf_token %}
+
+                <!-- Tipo de Entrada -->
+                <div class="form-group mb-4">
+                    <label for="tipo_entrada" class="font-weight-bold">Tipo de Entrada:</label>
+                    <span id="tipo_entrada">Entrada relacionada con una pregunta</span>
+                </div>
+                
+                <!-- Pregunta Relacionada (Solo lectura) -->
+                <div class="form-group mb-4">
+                    <label for="pregunta" class="font-weight-bold">Pregunta Relacionada:</label>
+                    <textarea id="pregunta" class="form-control" readonly>{{ descripcion_pregunta }}</textarea>
+                </div>
+
+                <!-- Asunto -->
+                <div class="form-group mb-4">
+                    <label for="asunto" class="font-weight-bold">Asunto:</label>
+                    {{ form.asunto }}
+                </div>
+
+                <!-- Contenido -->
+                <div class="form-group mb-4">
+                    <label for="contenido" class="font-weight-bold">Contenido:</label>
+                    {{ form.contenido }}
+                </div>
+
+                <!-- Botones -->
+                <div class="d-flex justify-content-between">
+                    <a href="{% url 'luapol_app:forum_entries_for_question' %}?pregunta={{ pregunta_id }}&test_id={{ test_id }}" 
+                        class="btn btn-outline-secondary">Volver a Entradas
+                    </a>
+                    <button type="submit" class="btn btn-outline-primary">Crear Discusión</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}

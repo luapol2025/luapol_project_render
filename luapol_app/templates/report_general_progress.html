@@ -1,0 +1,171 @@
+{% extends 'base.html' %}
+
+{% block title %}Progreso General{% endblock %}
+
+{% block content %}
+<div class="container my-4">
+    <h1 class="text-center mb-4">Progreso General</h1>
+
+    <!-- Botón para volver a la lista de foros -->
+    <div class="mb-3">
+        <a href="{% url 'luapol_app:list_reports' %}" class="btn btn-secondary">&laquo; </a>
+    </div>
+
+    <p class="text-center">Semanas y días consecutivos en los que has estudiado.</p>
+
+    <!-- Indicadores principales -->
+    <div class="row justify-content-center mb-4">
+        <div class="col-6 col-md-3 text-center border p-3">
+            <h2 class="h5">Semanas seguidas</h2>
+            <p class="display-3">{{ semanas_consecutivas }}</p>
+        </div>
+        <div class="col-6 col-md-3 text-center border p-3">
+            <h2 class="h5">Días seguidos</h2>
+            <p class="display-3">{{ dias_consecutivos }}</p>
+        </div>
+    </div>
+
+    <!-- Calendario -->
+    <div class="text-center mb-4">
+        <h2 class="h5">Calendario de Estudio</h2>
+        <div class="d-flex justify-content-center align-items-center mb-2">
+            <button id="prevMonth" class="btn btn-outline-primary me-2">&#8249;</button>
+            <span id="monthYear" class="fw-bold"></span>
+            <button id="nextMonth" class="btn btn-outline-primary ms-2">&#8250;</button>
+        </div>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Lun</th>
+                    <th>Mar</th>
+                    <th>Mié</th>
+                    <th>Jue</th>
+                    <th>Vie</th>
+                    <th>Sáb</th>
+                    <th>Dom</th>
+                </tr>
+            </thead>
+            <tbody id="calendario"></tbody>
+        </table>
+    </div>
+
+    <!-- Gráfico tipo columnas -->
+    <div class="text-center">
+        <h2 class="h5">Días en los que has estudiado por mes</h2>
+        <canvas id="graficoDiasPorMes" class="my-3"></canvas>
+    </div>
+</div>
+
+<script>
+    const calendario = JSON.parse('{{ calendario|safe }}');
+    const meses = JSON.parse('{{ personal_meses|safe }}');
+    const diasPorMes = JSON.parse('{{ personal_dias_por_mes|safe }}');
+    const mediaDiasPorMes = JSON.parse('{{ media_dias_por_mes|safe }}');
+
+    const calendarioBody = document.getElementById('calendario');
+    const monthYearSpan = document.getElementById('monthYear');
+
+    let currentMonth = new Date().getMonth();
+    let currentYear = new Date().getFullYear();
+
+    function renderCalendar() {
+        calendarioBody.innerHTML = '';
+        const firstDay = (new Date(currentYear, currentMonth, 1).getDay() + 6) % 7; // Semana empieza en lunes
+        const daysInMonth = new Date(currentYear, currentMonth + 1, 0).getDate();
+        const monthKey = `${currentYear}-${String(currentMonth + 1).padStart(2, '0')}`;
+        const diasEstudiados = calendario[monthKey] || [];
+
+        monthYearSpan.textContent = new Date(currentYear, currentMonth).toLocaleString('default', {
+            month: 'long',
+            year: 'numeric',
+        });
+
+        let date = 1;
+        for (let i = 0; i < 6; i++) { // 6 semanas máximo
+            const row = document.createElement('tr');
+            for (let j = 0; j < 7; j++) {
+                const cell = document.createElement('td');
+                if (i === 0 && j < firstDay) {
+                    cell.textContent = '';
+                } else if (date > daysInMonth) {
+                    cell.textContent = '';
+                } else {
+                    cell.textContent = date;
+                    if (diasEstudiados.includes(date)) {
+                        cell.classList.add('bg-primary', 'text-white'); // Marca días estudiados
+                    }
+                    date++;
+                }
+                row.appendChild(cell);
+            }
+            calendarioBody.appendChild(row);
+        }
+    }
+
+    document.getElementById('prevMonth').addEventListener('click', () => {
+        currentMonth = (currentMonth === 0) ? 11 : currentMonth - 1;
+        if (currentMonth === 11) currentYear--;
+        renderCalendar();
+    });
+
+    document.getElementById('nextMonth').addEventListener('click', () => {
+        currentMonth = (currentMonth === 11) ? 0 : currentMonth + 1;
+        if (currentMonth === 0) currentYear++;
+        renderCalendar();
+    });
+
+    renderCalendar();
+
+    // Gráfico de barras
+    const ctx = document.getElementById('graficoDiasPorMes').getContext('2d');
+    
+    new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: meses,
+            datasets: [{
+                label: 'Días de Estudio',
+                data: diasPorMes,
+            }, {
+                label: 'Media Global',
+                data: mediaDiasPorMes, // Línea de media global
+                type: 'line', // Tipo línea
+            }
+        ]
+        },
+        options: {
+            responsive: true,
+            plugins: {
+                legend: { display: false }, // Ocultar leyenda
+                datalabels: {
+                    anchor: 'end',
+                    align: 'top',
+                    formatter: (value) => value, // Muestra etiquetas encima de las barras
+                }
+            },
+            scales: {
+                x: {
+                    grid: {
+                        display: false, // Ocultar líneas de la cuadrícula del eje X
+                    }
+                },
+                y: {
+                    beginAtZero: true, // Empieza en 0
+                    max: 31, // Escala máxima en 31 días
+                    ticks: {
+                        stepSize: 4, // Divisiones de 4 en 4
+                        callback: function(value) {
+                            return value; // Mostrar solo valores enteros
+                        }
+                    },
+                    grid: {
+                        display: true, // Mostrar líneas de la cuadrícula del eje Y
+                    }
+                }
+            }
+        },
+        plugins: [ChartDataLabels], // Activar etiquetas sobre las barras
+    });
+
+</script>
+{% endblock %}

@@ -1,0 +1,113 @@
+{% extends "base.html" %}
+
+{% block title %}Dashboard de Reportes{% endblock %}
+
+{% block content %}
+<div class="container mt-4">
+    <h1 class="mb-4 text-center">Dashboard de Reportes</h1>
+
+    <!-- Controles para Cambiar Reportes -->
+    <div class="d-flex justify-content-center mb-4">
+        <button class="btn btn-outline-primary me-2" onclick="mostrarReporte('eventos')">Intentos por Evento</button>
+        <button class="btn btn-outline-primary me-2" onclick="mostrarReporte('bloques')">Intentos por Bloque</button>
+        <button class="btn btn-outline-primary" onclick="mostrarReporte('secciones')">Intentos por Sección</button>
+    </div>
+
+    <!-- Reporte: Intentos por Evento -->
+    <div id="reporte-eventos" class="reporte" style="display: none;">
+        <h2 class="h5">Intentos por Evento</h2>
+        {% if intentos_por_evento %}
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Evento</th>
+                    <th>Intentos Individuales</th>
+                    <th>Intentos Globales</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for evento in intentos_por_evento %}
+                <tr>
+                    <td>{{ evento.title }}</td>
+                    <td>{{ evento.intentos_individuales }}</td>
+                    <td>{{ evento.intentos_globales }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        {% else %}
+        <p class="text-center text-muted">No hay datos disponibles para los eventos.</p>
+        {% endif %}
+    </div>
+
+    <!-- Reporte: Intentos por Bloque -->
+    <div id="reporte-bloques" class="reporte" style="display: none;">
+        <h2 class="h5">Intentos por Bloque</h2>
+        {% if intentos_por_bloque %}
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Bloque</th>
+                    <th>Descripción del Bloque</th>
+                    <th>Intentos Individuales</th>
+                    <th>Intentos Globales</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for bloque in intentos_por_bloque %}
+                <tr>
+                    <td>{{ bloque.block_number__block_number }}</td>
+                    <td>{{ bloque.block_number__block_description }}</td>
+                    <td>{{ bloque.intentos_individuales }}</td>
+                    <td>{{ bloque.intentos_globales }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        {% else %}
+        <p class="text-center text-muted">No hay datos disponibles para los bloques.</p>
+        {% endif %}
+    </div>
+
+    <!-- Reporte: Intentos por Sección -->
+    <div id="reporte-secciones" class="reporte" style="display: none;">
+        <h2 class="h5">Intentos por Sección</h2>
+        {% if intentos_por_seccion %}
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Sección</th>
+                    <th>Descripción de la Sección</th>
+                    <th>Intentos Individuales</th>
+                    <th>Intentos Globales</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for seccion in intentos_por_seccion %}
+                <tr>
+                    <td>{{ seccion.block_number__section_id }}</td>
+                    <td>{{ seccion.section_description }}</td>
+                    <td>{{ seccion.intentos_individuales }}</td>
+                    <td>{{ seccion.intentos_globales }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        {% else %}
+        <p class="text-center text-muted">No hay datos disponibles para las secciones.</p>
+        {% endif %}
+    </div>
+</div>
+
+<!-- Script para Cambiar Reportes -->
+<script>
+    function mostrarReporte(id) {
+        const reportes = document.querySelectorAll('.reporte');
+        reportes.forEach(reporte => reporte.style.display = 'none');
+        document.getElementById(`reporte-${id}`).style.display = 'block';
+    }
+
+    // Mostrar por defecto el primer reporte
+    document.addEventListener('DOMContentLoaded', () => mostrarReporte('eventos'));
+</script>
+{% endblock %}

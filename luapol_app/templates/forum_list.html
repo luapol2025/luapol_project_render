@@ -1,0 +1,99 @@
+{% extends "base.html" %}
+
+{% block title %}Lista de Foros{% endblock %}
+
+{% block content %}
+<div class="container mt-4">
+    <h1 class="mb-4">Foro</h1>
+
+    <!-- Filtros -->
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <!-- Filtros de tipo -->
+        <div class="btn-group" role="group" aria-label="Filtros de entradas">
+            <a href="?filtro=todo{% if tema_id != 'todos' %}&tema={{ tema_id }}{% endif %}" class="btn btn-outline-primary {% if filtro == 'todo' %}active{% endif %}">Todo</a>
+            <a href="?filtro=preguntas{% if tema_id != 'todos' %}&tema={{ tema_id }}{% endif %}" class="btn btn-outline-primary {% if filtro == 'preguntas' %}active{% endif %}">Preguntas</a>
+            <a href="?filtro=general{% if tema_id != 'todos' %}&tema={{ tema_id }}{% endif %}" class="btn btn-outline-primary {% if filtro == 'general' %}active{% endif %}">General</a>
+        </div>
+        
+
+        <!-- Filtro de temas -->
+        <div class="ms-3">
+            <select id="tema-filter" class="form-select" onchange="filtrarPorTema(this)">
+                <option value="todos" {% if tema_id == 'todos' %}selected{% endif %}>Todos los Temas</option>
+                {% for tema in temas %}
+                    <option value="{{ tema.id }}" {% if tema_id == tema.id|stringformat:"s" %}selected{% endif %}>
+                        {{ tema.title_number }}: {{ tema.description }}
+                    </option>
+                {% endfor %}
+            </select>
+        </div>
+    </div>
+
+    <!-- Lista de Entradas -->
+    {% for entrada in entradas %}
+        <div class="card mb-3">
+            <div class="card-body">
+                <h5 class="card-title">
+                    <a href="{% url 'luapol_app:forum_detail' entrada.id %}" class="text-primary">{{ entrada.asunto }}</a>
+                </h5>
+                <p class="card-text">{{ entrada.contenido|truncatechars:100 }}</p>
+                <small class="text-muted">
+                    Creado por {{ entrada.creado_por_fk.username }} el {{ entrada.fecha_creacion|date:"d/m/Y H:i" }}
+                </small>
+                <div class="d-flex justify-content-between align-items-center mt-2">
+                    <span class="badge bg-secondary d-flex align-items-center">
+                        <i class="fa fa-comment me-1"></i> {{ entrada.num_respuestas }}
+                    </span>
+                    <span class="badge bg-success d-flex align-items-center">
+                        <i class="fa fa-thumbs-up me-1"></i> {{ entrada.total_megusta }}
+                    </span>
+                </div>
+                {% if entrada.detalle_pregunta %}
+                    <span class="badge bg-info">Pregunta</span>
+                {% elif entrada.detalle_general %}
+                    <span class="badge bg-success">General</span>
+                {% endif %}
+            </div>
+        </div>
+    {% endfor %}
+
+    <!-- Paginación -->
+    <nav aria-label="Page navigation">
+        <ul class="pagination justify-content-center">
+            {% if entradas.has_previous %}
+                <li class="page-item">
+                    <a class="page-link" href="?{% if filtro %}filtro={{ filtro }}&{% endif %}{% if tema_id %}tema={{ tema_id }}&{% endif %}page={{ entradas.previous_page_number }}" aria-label="Anterior">
+                        <span aria-hidden="true">&laquo;</span>
+                    </a>
+                </li>
+            {% endif %}
+            {% for page_num in entradas.paginator.page_range %}
+                <li class="page-item {% if entradas.number == page_num %}active{% endif %}">
+                    <a class="page-link" href="?{% if filtro %}filtro={{ filtro }}&{% endif %}{% if tema_id %}tema={{ tema_id }}&{% endif %}page={{ page_num }}">{{ page_num }}</a>
+                </li>
+            {% endfor %}
+            {% if entradas.has_next %}
+                <li class="page-item">
+                    <a class="page-link" href="?{% if filtro %}filtro={{ filtro }}&{% endif %}{% if tema_id %}tema={{ tema_id }}&{% endif %}page={{ entradas.next_page_number }}" aria-label="Siguiente">
+                        <span aria-hidden="true">&raquo;</span>
+                    </a>
+                </li>
+            {% endif %}
+        </ul>
+    </nav>
+</div>
+
+<!-- Script para filtrar por tema -->
+<script>
+    function filtrarPorTema(selectElement) {
+        const selectedTema = selectElement.value;
+        const urlParams = new URLSearchParams(window.location.search);
+
+        // Agregar o actualizar los parámetros en la URL
+        urlParams.set('tema', selectedTema);
+
+        // Redirigir a la nueva URL
+        window.location.search = urlParams.toString();
+    }
+</script>
+{% endblock %}

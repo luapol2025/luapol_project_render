@@ -1,0 +1,80 @@
+{% extends 'base.html' %}
+
+{% block title %}Ranking de Alumnos{% endblock %}
+
+{% block content %}
+<div class="container my-4">
+    <h1 class="text-center mb-4">Ranking de Alumnos</h1>
+    
+    <!-- Botón para volver a la lista de foros -->
+    <div class="mb-3">
+        <a href="{% url 'luapol_app:list_reports' %}" class="btn btn-secondary">&laquo; </a>
+    </div>
+    
+    <p class="text-center">Clasificación basada en la relación Tests Completados / Total de Intentos.</p>
+
+    <!-- Tabla de ranking -->
+    <div class="text-center mb-4">
+        <h2 class="h5">Resultados</h2>
+        <table class="table table-bordered">
+            <thead>
+                <tr class="text-center">
+                    <th>Posición</th>
+                    <th>Alumno</th>
+                    <th>Tests Completados</th>
+                    <th>Total de Intentos</th>
+                    <th>Score</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for alumno in ranking %}
+                <tr>
+                    <td class="text-center">
+                        {{ forloop.counter0|add:ranking.start_index }}
+                    </td>
+                    <td>{{ alumno.username }}</td>
+                    <td class="text-center">{{ alumno.tests_completados }}</td>
+                    <td class="text-center">{{ alumno.total_intentos|floatformat:2 }}</td>
+                    <td class="text-center">{{ alumno.score|floatformat:2 }}</td>
+                </tr>
+                {% empty %}
+                <tr>
+                    <td colspan="5" class="text-center">No hay datos para mostrar.</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Controles de paginación -->
+    <nav aria-label="Paginación del ranking">
+        <ul class="pagination justify-content-center">
+            {% if ranking.has_previous %}
+            <li class="page-item">
+                <a class="page-link" href="?page={{ ranking.previous_page_number }}" aria-label="Anterior">
+                    &laquo; Anterior
+                </a>
+            </li>
+            {% endif %}
+            {% for page_num in ranking.paginator.page_range %}
+                {% if page_num == ranking.number %}
+                <li class="page-item active">
+                    <span class="page-link">{{ page_num }}</span>
+                </li>
+                {% else %}
+                <li class="page-item">
+                    <a class="page-link" href="?page={{ page_num }}">{{ page_num }}</a>
+                </li>
+                {% endif %}
+            {% endfor %}
+            {% if ranking.has_next %}
+            <li class="page-item">
+                <a class="page-link" href="?page={{ ranking.next_page_number }}" aria-label="Siguiente">
+                    Siguiente &raquo;
+                </a>
+            </li>
+            {% endif %}
+        </ul>
+    </nav>
+</div>
+{% endblock %}

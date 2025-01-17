@@ -1,0 +1,117 @@
+{% extends "base.html" %}
+{% block title %}{{ entrada.asunto }}{% endblock %}
+
+{% block content %}
+<div class="container mt-4">
+
+    <!-- Botón para volver a la lista de foros -->
+    <div class="mb-3">
+        <a href="{% url 'luapol_app:forum_list' %}" class="btn btn-secondary">&laquo; </a>
+    </div>
+    
+    <!-- Información de la entrada principal -->
+    <div class="card mb-3">
+        <div class="card-body">
+            <h5 class="card-title">{{ entrada.asunto }}</h5>
+        </div>
+        <div class="card-body bg-light">
+            <div class="d-flex justify-content-between align-items-center">
+                <div>
+                    <strong class="text-primary">{{ entrada.creado_por_fk }}</strong>
+                    <p>{{ entrada.contenido }}</p>
+                    <small class="text-muted">Started on {{ entrada.fecha_creacion }}</small>
+                </div>
+                <!-- Botón de Me Gusta para la entrada principal -->
+                <div class="d-flex align-items-center">
+                    <button 
+                        class="btn btn-outline-success btn-sm like-button" 
+                        data-id="{{ entrada.id }}" 
+                        data-type="entrada"
+                    >
+                        <i class="fa fa-thumbs-up"></i>
+                        <small class="text-muted ms-1" id="like-count-entrada-{{ entrada.id }}">{{ entrada.likes }}</small>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Lista de mensajes -->
+    <div class="card mb-4">
+        <div class="card-body">
+            <h4>Messages</h4>
+            <ul class="list-group list-group-flush">
+                {% for mensaje in mensajes %}
+                    <li class="list-group-item">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <!-- Encabezado: Usuario y Fecha -->
+                            <div>
+                                <strong class="text-primary">{{ mensaje.autor_fk }}</strong>
+                                <small class="text-muted d-block">{{ mensaje.fecha_publicacion }}</small>
+                                <p class="mt-2 mb-0 text-dark">{{ mensaje.contenido }}</p>
+                            </div>
+                            <!-- Botón de Me Gusta para cada mensaje -->
+                            <div class="d-flex align-items-center">
+                                <button 
+                                    class="btn btn-outline-success btn-sm like-button" 
+                                    data-id="{{ mensaje.id }}" 
+                                    data-type="mensaje"
+                                >
+                                    <i class="fa fa-thumbs-up"></i>
+                                    <small class="text-muted ms-1" id="like-count-mensaje-{{ mensaje.id }}">{{ mensaje.likes }}</small>
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                {% endfor %}
+            </ul>            
+        </div>
+    </div>  
+
+    <!-- Formulario de respuesta -->
+    <div class="card mt-4 bg-light">
+        <div class="card-body">
+            <h5 class="mb-3">Reply</h5>
+            <form method="post">
+                {% csrf_token %}
+                {{ form.as_p }}
+                <button type="submit" class="btn btn-primary">Send Reply</button>
+            </form>
+        </div>
+    </div>
+
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+    document.querySelectorAll('.like-button').forEach(button => {
+        button.addEventListener('click', function () {
+            const itemId = this.getAttribute('data-id');
+            const itemType = this.getAttribute('data-type');
+            
+            // Construir la URL
+            const url = `/forum_megusta/${itemType}/${itemId}/`;
+
+            fetch(url, {
+                method: 'POST',
+                headers: {
+                    'X-CSRFToken': '{{ csrf_token }}',
+                    'Content-Type': 'application/json',
+                },
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.likes !== undefined) {
+                    const likeCount = document.getElementById(`like-count-${itemType}-${itemId}`);
+                    likeCount.textContent = data.likes;  // Actualiza el contador en la página
+                } else {
+                    console.error('Error en la actualización de Me Gusta:', data.error);
+                }
+            })
+            .catch(error => console.error('Error en la solicitud de Me Gusta:', error));
+        });
+    });
+});
+</script>
+
+{% endblock %}

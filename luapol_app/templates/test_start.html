@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+
+{% block title %}Preparación para el Test{% endblock %}
+
+{% block content %}
+<div class="container mt-4">
+    <h1 class="text-center">Test </h1>
+    <p class="text-center">¿Qué deseas hacer a continuación?</p>
+
+    <div class="text-center mt-4">
+        <form method="post">
+            {% csrf_token %}
+
+            <!-- Botón para iniciar un nuevo intento -->
+            <button type="submit" name="start_test" class="btn btn-primary" onclick="return confirmSubmit();"
+                    {% if test.aprobado %} disabled 
+                    title="Ya has aprobado este test." 
+                    {% endif %}>
+                <i class="fa fa-play"></i> Iniciar Nuevo Intento
+            </button>
+
+            <!-- Enlace para revisar el último intento -->
+            <a href="{% url 'luapol_app:test_detail_review' test.id %}" 
+            class="btn btn-warning {% if test_to_review %} disabled {% endif %}" 
+            title="{% if test_to_review %}No tienes ningún test completado para revisar.{% endif %}">
+            <i class="fa fa-eye"></i> Revisar Último Intento
+            </a>
+
+            <!-- Botón para revisar resultados -->
+            <a href="{% url 'luapol_app:test_analysis' test.id %}" 
+            class="btn btn-info {% if test_to_review %} disabled {% endif %}" 
+            title="{% if test_to_review %}No tienes ningún test completado para revisar.{% endif %}">
+            <i class="fa fa-clipboard-list"></i> Análisis Último Intento
+            </a>            
+        </form>
+    </div>
+</div>
+<script>
+    // Forzar recarga de la página cuando se navega hacia atrás
+    window.onpageshow = function(event) {
+        if (event.persisted) {
+            window.location.reload();
+        }
+    };
+
+    function confirmSubmit() {
+        return confirm('Aviso importante: Una vez que inicies el test, si recargas la página o navegas hacia atrás, perderás tu oportunidad de completar el intento. ¿Deseas continuar?');
+    };
+</script>
+{% endblock %}

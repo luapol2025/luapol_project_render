@@ -1,0 +1,87 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Inicio - LUAPOL{% endblock %}
+
+{% block content %}
+<div class="container mt-4">
+    <div class="card shadow-sm text-center">
+        <!-- Cabecera de bienvenida -->
+        <div class="card-header bg-dark text-white">
+            <h1 class="display-4">Bienvenido a LUAPOL</h1>
+            <p class="lead">Tu plataforma de entrenamiento para opositores a la Policía Nacional</p>
+        </div>
+            <!-- Botón temporal para crear bloques -->
+        <div class="text-center my-4">
+            <a href="{% url 'luapol_app:new_block' %}" class="btn btn-primary">
+                <i class="fa fa-plus"></i> Crear Bloque
+            </a>
+            <form method="POST" action="{% url 'luapol_app:delete_blocks' %}" class="d-inline">
+                {% csrf_token %}
+                <button type="submit" class="btn btn-danger">
+                    <i class="fa fa-trash"></i> Eliminar Todos los Bloques
+                </button>
+            </form>
+        </div>
+        <div class="card-body">
+            {% if plan_no_configurado %}
+                <div class="alert alert-warning">
+                    <h4 class="mb-3">No tienes tests planificados.</h4>
+                    <p>Empieza configurando un bloque de tests para empezar a prepararte.</p>
+                    <a href="{% url 'luapol_app:event_list' %}" class="btn btn-outline-primary">
+                        <i class="fa fa-plus-circle"></i> Crear Bloque de Tests
+                    </a>
+                </div>
+            {% else %}
+                <div class="alert alert-info">
+                    <h4 class="mb-3">Estado de tus actividades:</h4>
+                    <ul class="list-unstyled">
+                        {% if ultima_completada %}
+                            <li><strong>Última actividad completada:</strong> {{ ultima_completada }}</li>
+                        {% else %}
+                            <li>No has completado ninguna actividad aún.</li>
+                        {% endif %}
+                        
+                        {% if siguiente %}
+                            <li><strong>Siguiente actividad:</strong> {{ siguiente }}</li>
+                        {% else %}
+                            <li>No tienes actividades pendientes.</li>
+                        {% endif %}
+                    </ul>
+                </div>
+            {% endif %}
+        </div>
+    </div>
+
+    <hr class="my-4">
+
+    <p class="lead"> </p>
+    <div class="row justify-content-center">
+        <div class="col-md-3">
+            <a href="{% url 'luapol_app:chat' %}" class="btn btn-outline-secondary btn-block">
+                <i class="fa fa-comments"></i> Chat con instructores
+            </a>
+        </div>
+        <div class="col-md-3">
+            <a href="{% url 'luapol_app:event_list' %}" class="btn btn-outline-success btn-block">
+                <i class="fa fa-calendar"></i> Mis Tests
+            </a>
+        </div>
+        <div class="col-md-3">
+            <a href="{% url 'luapol_app:preguntas_favoritas' %}" class="btn btn-outline-primary btn-block">
+                <i class="fa fa-star"></i> Mis Preguntas Favoritas
+            </a>
+        </div>
+        <div class="col-md-3">
+            <a href="{% url 'luapol_app:forum_list' %}" class="btn btn-outline-info btn-block">
+                <i class="fa fa-comments"></i> Foro de Discusión
+            </a>
+        </div>
+        <div class="col-md-3 mt-3">
+            <a href="{% url 'luapol_app:list_reports' %}" class="btn btn-outline-dark btn-block">
+                <i class="fa fa-bar-chart"></i> Reports
+            </a>
+        </div>
+    </div>
+</div>
+{% endblock %}

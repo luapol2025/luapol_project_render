@@ -1,0 +1,96 @@
+{% extends 'base.html' %}
+
+{% block title %}Preguntas Favoritas{% endblock %}
+
+{% block content %}
+<div class="container mt-4">
+    <h1 class="text-center">Preguntas Favoritas</h1>
+
+    {% if preguntas_favoritas %}
+        <ul class="list-group mt-4">
+            {% for pregunta_test in preguntas_favoritas %}
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    <div>
+                        <!-- Título de la pregunta -->
+                        <p><strong>{{ pregunta_test.pregunta.pregunta }}</strong></p>
+                        <ul class="list-unstyled">
+                            {% for respuesta in pregunta_test.pregunta.respuestas.all %}
+                                <li>
+                                    <!-- Campo de respuesta en modo solo lectura -->
+                                    <input type="radio" id="respuesta_{{ respuesta.key_id_respuesta }}" 
+                                           name="pregunta_{{ pregunta_test.pregunta.key_id_pregunta }}" 
+                                           value="{{ respuesta.key_id_respuesta }}"
+                                           {% if pregunta_test.respuesta_seleccionada and pregunta_test.respuesta_seleccionada.key_id_respuesta == respuesta.key_id_respuesta %} checked {% endif %}
+                                           disabled>
+                                    <label for="respuesta_{{ respuesta.key_id_respuesta }}">{{ respuesta.descripcion }}</label>
+                                </li>
+                            {% endfor %}
+
+                        <!-- Botón para mostrar respuestas correctas -->
+                        <button class="btn btn-info mt-2" type="button" data-toggle="collapse" 
+                                data-target="#comentarios_{{ pregunta_test.id }}" aria-expanded="false" 
+                                aria-controls="comentarios_{{ pregunta_test.id }}">
+                            Mostrar explicación
+                        </button>
+
+                        <!-- Respuestas correctas y comentarios -->
+                        <div class="collapse mt-2" id="comentarios_{{ pregunta_test.id }}">
+                            <div class="card card-body">
+                                {% for respuesta in pregunta_test.pregunta.respuestas.all %}
+                                    {% if respuesta.es_correcta %}
+                                        <p><strong>Respuesta correcta:</strong> {{ respuesta.descripcion }}</p>
+                                        <p><strong>Explicación:</strong> {{ respuesta.comentarios }}</p>
+                                    {% endif %}
+                                {% endfor %}
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Botón de favoritos -->
+                    <button 
+                        class="favorite-form ml-3" 
+                        data-id="{{ pregunta_test.id }}" 
+                        id="favorito-btn-{{ pregunta_test.id }}"
+                    >
+                        <i class="fa {% if pregunta_test.es_favorita %}favorito fa-star{% else %}fa-star-o{% endif %}"></i>
+                    </button>
+                </li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p class="text-center">No tienes preguntas marcadas como favoritas.</p>
+    {% endif %}
+</div>
+
+<script>
+    // Manejar el cambio de estado de favoritos
+    document.querySelectorAll('.favorite-form').forEach(button => {
+        button.addEventListener('click', function () {
+            const preguntaId = this.getAttribute('data-id');
+            const url = "{% url 'luapol_app:toggle_favorita' 0 %}".replace('0', preguntaId);
+
+            fetch(url, {
+                method: 'POST',
+                headers: {
+                    'X-CSRFToken': '{{ csrf_token }}',
+                    'Content-Type': 'application/json',
+                },
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.favorita !== undefined) {
+                    const icon = document.querySelector(`#favorito-btn-${preguntaId} i`);
+                    if (data.favorita) {
+                        icon.classList.add('favorito', 'fa-star');
+                        icon.classList.remove('fa-star-o');
+                    } else {
+                        icon.classList.add('fa-star-o');
+                        icon.classList.remove('favorito', 'fa-star');
+                    }
+                }
+            })
+            .catch(error => console.error('Error:', error));
+        });
+    });
+</script>
+{% endblock %}

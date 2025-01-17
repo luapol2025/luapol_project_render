@@ -1,0 +1,593 @@
+ID Pregunta,ID Tema,Tema,ID SubTema,Subtema,n Pregunta,Pregunta,ID Respuesta,n Respuesta,Es Correcta,Descripcio,Comentaris
+PN1111,1,Geografía,11,Capitales,1,¿Cuál es la capital de Capitales?,RN11111,1,sí,Madrid,Explicación: esta es la respuesta correcta.
+PN1111,1,Geografía,11,Capitales,1,¿Cuál es la capital de Capitales?,RN11112,2,no,Paris,Explicación: esta respuesta es incorrecta.
+PN1111,1,Geografía,11,Capitales,1,¿Cuál es la capital de Capitales?,RN11113,3,no,London,Explicación: esta respuesta es incorrecta.
+PN1111,1,Geografía,11,Capitales,1,¿Cuál es la capital de Capitales?,RN11114,4,no,Berlin,Explicación: esta respuesta es incorrecta.
+PN1112,1,Geografía,11,Capitales,2,¿Qué río es el más largo de Capitales?,RN11121,1,sí,Madrid,Explicación: esta es la respuesta correcta.
+PN1112,1,Geografía,11,Capitales,2,¿Qué río es el más largo de Capitales?,RN11122,2,no,Paris,Explicación: esta respuesta es incorrecta.
+PN1112,1,Geografía,11,Capitales,2,¿Qué río es el más largo de Capitales?,RN11123,3,no,London,Explicación: esta respuesta es incorrecta.
+PN1112,1,Geografía,11,Capitales,2,¿Qué río es el más largo de Capitales?,RN11124,4,no,Berlin,Explicación: esta respuesta es incorrecta.
+PN1113,1,Geografía,11,Capitales,3,¿Cuál es la montaña más alta en Capitales?,RN11131,1,sí,Madrid,Explicación: esta es la respuesta correcta.
+PN1113,1,Geografía,11,Capitales,3,¿Cuál es la montaña más alta en Capitales?,RN11132,2,no,Paris,Explicación: esta respuesta es incorrecta.
+PN1113,1,Geografía,11,Capitales,3,¿Cuál es la montaña más alta en Capitales?,RN11133,3,no,London,Explicación: esta respuesta es incorrecta.
+PN1113,1,Geografía,11,Capitales,3,¿Cuál es la montaña más alta en Capitales?,RN11134,4,no,Berlin,Explicación: esta respuesta es incorrecta.
+PN1114,1,Geografía,11,Capitales,4,¿En qué época ocurrió la guerra en Capitales?,RN11141,1,no,Madrid,Explicación: esta respuesta es incorrecta.
+PN1114,1,Geografía,11,Capitales,4,¿En qué época ocurrió la guerra en Capitales?,RN11142,2,no,Paris,Explicación: esta respuesta es incorrecta.
+PN1114,1,Geografía,11,Capitales,4,¿En qué época ocurrió la guerra en Capitales?,RN11143,3,no,London,Explicación: esta respuesta es incorrecta.
+PN1114,1,Geografía,11,Capitales,4,¿En qué época ocurrió la guerra en Capitales?,RN11144,4,sí,Berlin,Explicación: esta es la respuesta correcta.
+PN1115,1,Geografía,12,Ríos,1,¿Cuál es la capital de Ríos?,RN11151,1,sí,Madrid,Explicación: esta es la respuesta correcta.
+PN1115,1,Geografía,12,Ríos,1,¿Cuál es la capital de Ríos?,RN11152,2,no,Paris,Explicación: esta respuesta es incorrecta.
+PN1115,1,Geografía,12,Ríos,1,¿Cuál es la capital de Ríos?,RN11153,3,no,London,Explicación: esta respuesta es incorrecta.
+PN1115,1,Geografía,12,Ríos,1,¿Cuál es la capital de Ríos?,RN11154,4,no,Berlin,Explicación: esta respuesta es incorrecta.
+PN1116,1,Geografía,12,Ríos,2,¿Qué río es el más largo de Ríos?,RN11161,1,sí,Amazonas,Explicación: esta es la respuesta correcta.
+PN1116,1,Geografía,12,Ríos,2,¿Qué río es el más largo de Ríos?,RN11162,2,no,Nilo,Explicación: esta respuesta es incorrecta.
+PN1116,1,Geografía,12,Ríos,2,¿Qué río es el más largo de Ríos?,RN11163,3,no,Misisipi,Explicación: esta respuesta es incorrecta.
+PN1116,1,Geografía,12,Ríos,2,¿Qué río es el más largo de Ríos?,RN11164,4,no,Yangtsé,Explicación: esta respuesta es incorrecta.
+PN1117,1,Geografía,12,Ríos,3,¿Cuál es la montaña más alta en Ríos?,RN11171,1,sí,Amazonas,Explicación: esta es la respuesta correcta.
+PN1117,1,Geografía,12,Ríos,3,¿Cuál es la montaña más alta en Ríos?,RN11172,2,no,Nilo,Explicación: esta respuesta es incorrecta.
+PN1117,1,Geografía,12,Ríos,3,¿Cuál es la montaña más alta en Ríos?,RN11173,3,no,Misisipi,Explicación: esta respuesta es incorrecta.
+PN1117,1,Geografía,12,Ríos,3,¿Cuál es la montaña más alta en Ríos?,RN11174,4,no,Yangtsé,Explicación: esta respuesta es incorrecta.
+PN1118,1,Geografía,12,Ríos,4,¿En qué época ocurrió la guerra en Ríos?,RN11181,1,no,Amazonas,Explicación: esta respuesta es incorrecta.
+PN1118,1,Geografía,12,Ríos,4,¿En qué época ocurrió la guerra en Ríos?,RN11182,2,no,Nilo,Explicación: esta respuesta es incorrecta.
+PN1118,1,Geografía,12,Ríos,4,¿En qué época ocurrió la guerra en Ríos?,RN11183,3,no,Misisipi,Explicación: esta respuesta es incorrecta.
+PN1118,1,Geografía,12,Ríos,4,¿En qué época ocurrió la guerra en Ríos?,RN11184,4,sí,Yangtsé,Explicación: esta es la respuesta correcta.
+PN1119,1,Geografía,13,Montañas,1,¿Cuál es la capital de Montañas?,RN11191,1,sí,Madrid,Explicación: esta es la respuesta correcta.
+PN1119,1,Geografía,13,Montañas,1,¿Cuál es la capital de Montañas?,RN11192,2,no,Paris,Explicación: esta respuesta es incorrecta.
+PN1119,1,Geografía,13,Montañas,1,¿Cuál es la capital de Montañas?,RN11193,3,no,London,Explicación: esta respuesta es incorrecta.
+PN1119,1,Geografía,13,Montañas,1,¿Cuál es la capital de Montañas?,RN11194,4,no,Berlin,Explicación: esta respuesta es incorrecta.
+PN1120,1,Geografía,13,Montañas,2,¿Qué río es el más largo de Montañas?,RN11201,1,sí,Amazonas,Explicación: esta es la respuesta correcta.
+PN1120,1,Geografía,13,Montañas,2,¿Qué río es el más largo de Montañas?,RN11202,2,no,Nilo,Explicación: esta respuesta es incorrecta.
+PN1120,1,Geografía,13,Montañas,2,¿Qué río es el más largo de Montañas?,RN11203,3,no,Misisipi,Explicación: esta respuesta es incorrecta.
+PN1120,1,Geografía,13,Montañas,2,¿Qué río es el más largo de Montañas?,RN11204,4,no,Yangtsé,Explicación: esta respuesta es incorrecta.
+PN1121,1,Geografía,13,Montañas,3,¿Cuál es la montaña más alta en Montañas?,RN11211,1,sí,Respuesta A,Explicación: esta es la respuesta correcta.
+PN1121,1,Geografía,13,Montañas,3,¿Cuál es la montaña más alta en Montañas?,RN11212,2,no,Respuesta B,Explicación: esta respuesta es incorrecta.
+PN1121,1,Geografía,13,Montañas,3,¿Cuál es la montaña más alta en Montañas?,RN11213,3,no,Respuesta C,Explicación: esta respuesta es incorrecta.
+PN1121,1,Geografía,13,Montañas,3,¿Cuál es la montaña más alta en Montañas?,RN11214,4,no,Respuesta D,Explicación: esta respuesta es incorrecta.
+PN1122,1,Geografía,13,Montañas,4,¿En qué época ocurrió la guerra en Montañas?,RN11221,1,no,Respuesta A,Explicación: esta respuesta es incorrecta.
+PN1122,1,Geografía,13,Montañas,4,¿En qué época ocurrió la guerra en Montañas?,RN11222,2,no,Respuesta B,Explicación: esta respuesta es incorrecta.
+PN1122,1,Geografía,13,Montañas,4,¿En qué época ocurrió la guerra en Montañas?,RN11223,3,no,Respuesta C,Explicación: esta respuesta es incorrecta.
+PN1122,1,Geografía,13,Montañas,4,¿En qué época ocurrió la guerra en Montañas?,RN11224,4,sí,Respuesta D,Explicación: esta es la respuesta correcta.
+PN1123,2,Historia,21,Antigua,1,¿Cuál es la capital de Antigua?,RN11231,1,sí,Madrid,Explicación: esta es la respuesta correcta.
+PN1123,2,Historia,21,Antigua,1,¿Cuál es la capital de Antigua?,RN11232,2,no,Paris,Explicación: esta respuesta es incorrecta.
+PN1123,2,Historia,21,Antigua,1,¿Cuál es la capital de Antigua?,RN11233,3,no,London,Explicación: esta respuesta es incorrecta.
+PN1123,2,Historia,21,Antigua,1,¿Cuál es la capital de Antigua?,RN11234,4,no,Berlin,Explicación: esta respuesta es incorrecta.
+PN1124,2,Historia,21,Antigua,2,¿Qué río es el más largo de Antigua?,RN11241,1,sí,Amazonas,Explicación: esta es la respuesta correcta.
+PN1124,2,Historia,21,Antigua,2,¿Qué río es el más largo de Antigua?,RN11242,2,no,Nilo,Explicación: esta respuesta es incorrecta.
+PN1124,2,Historia,21,Antigua,2,¿Qué río es el más largo de Antigua?,RN11243,3,no,Misisipi,Explicación: esta respuesta es incorrecta.
+PN1124,2,Historia,21,Antigua,2,¿Qué río es el más largo de Antigua?,RN11244,4,no,Yangtsé,Explicación: esta respuesta es incorrecta.
+PN1125,2,Historia,21,Antigua,3,¿Cuál es la montaña más alta en Antigua?,RN11251,1,sí,Respuesta A,Explicación: esta es la respuesta correcta.
+PN1125,2,Historia,21,Antigua,3,¿Cuál es la montaña más alta en Antigua?,RN11252,2,no,Respuesta B,Explicación: esta respuesta es incorrecta.
+PN1125,2,Historia,21,Antigua,3,¿Cuál es la montaña más alta en Antigua?,RN11253,3,no,Respuesta C,Explicación: esta respuesta es incorrecta.
+PN1125,2,Historia,21,Antigua,3,¿Cuál es la montaña más alta en Antigua?,RN11254,4,no,Respuesta D,Explicación: esta respuesta es incorrecta.
+PN1126,2,Historia,21,Antigua,4,¿En qué época ocurrió la guerra en Antigua?,RN11261,1,no,Respuesta A,Explicación: esta respuesta es incorrecta.
+PN1126,2,Historia,21,Antigua,4,¿En qué época ocurrió la guerra en Antigua?,RN11262,2,no,Respuesta B,Explicación: esta respuesta es incorrecta.
+PN1126,2,Historia,21,Antigua,4,¿En qué época ocurrió la guerra en Antigua?,RN11263,3,no,Respuesta C,Explicación: esta respuesta es incorrecta.
+PN1126,2,Historia,21,Antigua,4,¿En qué época ocurrió la guerra en Antigua?,RN11264,4,sí,Respuesta D,Explicación: esta es la respuesta correcta.
+PN1127,2,Historia,22,Medieval,1,¿Cuál es la capital de Medieval?,RN11271,1,sí,Madrid,Explicación: esta es la respuesta correcta.
+PN1127,2,Historia,22,Medieval,1,¿Cuál es la capital de Medieval?,RN11272,2,no,Paris,Explicación: esta respuesta es incorrecta.
+PN1127,2,Historia,22,Medieval,1,¿Cuál es la capital de Medieval?,RN11273,3,no,London,Explicación: esta respuesta es incorrecta.
+PN1127,2,Historia,22,Medieval,1,¿Cuál es la capital de Medieval?,RN11274,4,no,Berlin,Explicación: esta respuesta es incorrecta.
+PN1128,2,Historia,22,Medieval,2,¿Qué río es el más largo de Medieval?,RN11281,1,sí,Amazonas,Explicación: esta es la respuesta correcta.
+PN1128,2,Historia,22,Medieval,2,¿Qué río es el más largo de Medieval?,RN11282,2,no,Nilo,Explicación: esta respuesta es incorrecta.
+PN1128,2,Historia,22,Medieval,2,¿Qué río es el más largo de Medieval?,RN11283,3,no,Misisipi,Explicación: esta respuesta es incorrecta.
+PN1128,2,Historia,22,Medieval,2,¿Qué río es el más largo de Medieval?,RN11284,4,no,Yangtsé,Explicación: esta respuesta es incorrecta.
+PN1129,2,Historia,22,Medieval,3,¿Cuál es la montaña más alta en Medieval?,RN11291,1,sí,Respuesta A,Explicación: esta es la respuesta correcta.
+PN1129,2,Historia,22,Medieval,3,¿Cuál es la montaña más alta en Medieval?,RN11292,2,no,Respuesta B,Explicación: esta respuesta es incorrecta.
+PN1129,2,Historia,22,Medieval,3,¿Cuál es la montaña más alta en Medieval?,RN11293,3,no,Respuesta C,Explicación: esta respuesta es incorrecta.
+PN1129,2,Historia,22,Medieval,3,¿Cuál es la montaña más alta en Medieval?,RN11294,4,no,Respuesta D,Explicación: esta respuesta es incorrecta.
+PN1130,2,Historia,22,Medieval,4,¿En qué época ocurrió la guerra en Medieval?,RN11301,1,no,Respuesta A,Explicación: esta respuesta es incorrecta.
+PN1130,2,Historia,22,Medieval,4,¿En qué época ocurrió la guerra en Medieval?,RN11302,2,no,Respuesta B,Explicación: esta respuesta es incorrecta.
+PN1130,2,Historia,22,Medieval,4,¿En qué época ocurrió la guerra en Medieval?,RN11303,3,no,Respuesta C,Explicación: esta respuesta es incorrecta.
+PN1130,2,Historia,22,Medieval,4,¿En qué época ocurrió la guerra en Medieval?,RN11304,4,sí,Respuesta D,Explicación: esta es la respuesta correcta.
+PN1131,2,Historia,23,Moderna,1,¿Cuál es la capital de Moderna?,RN11311,1,sí,Madrid,Explicación: esta es la respuesta correcta.
+PN1131,2,Historia,23,Moderna,1,¿Cuál es la capital de Moderna?,RN11312,2,no,Paris,Explicación: esta respuesta es incorrecta.
+PN1131,2,Historia,23,Moderna,1,¿Cuál es la capital de Moderna?,RN11313,3,no,London,Explicación: esta respuesta es incorrecta.
+PN1131,2,Historia,23,Moderna,1,¿Cuál es la capital de Moderna?,RN11314,4,no,Berlin,Explicación: esta respuesta es incorrecta.
+PN1132,2,Historia,23,Moderna,2,¿Qué río es el más largo de Moderna?,RN11321,1,sí,Amazonas,Explicación: esta es la respuesta correcta.
+PN1132,2,Historia,23,Moderna,2,¿Qué río es el más largo de Moderna?,RN11322,2,no,Nilo,Explicación: esta respuesta es incorrecta.
+PN1132,2,Historia,23,Moderna,2,¿Qué río es el más largo de Moderna?,RN11323,3,no,Misisipi,Explicación: esta respuesta es incorrecta.
+PN1132,2,Historia,23,Moderna,2,¿Qué río es el más largo de Moderna?,RN11324,4,no,Yangtsé,Explicación: esta respuesta es incorrecta.
+PN1133,2,Historia,23,Moderna,3,¿Cuál es la montaña más alta en Moderna?,RN11331,1,sí,Respuesta A,Explicación: esta es la respuesta correcta.
+PN1133,2,Historia,23,Moderna,3,¿Cuál es la montaña más alta en Moderna?,RN11332,2,no,Respuesta B,Explicación: esta respuesta es incorrecta.
+PN1133,2,Historia,23,Moderna,3,¿Cuál es la montaña más alta en Moderna?,RN11333,3,no,Respuesta C,Explicación: esta respuesta es incorrecta.
+PN1133,2,Historia,23,Moderna,3,¿Cuál es la montaña más alta en Moderna?,RN11334,4,no,Respuesta D,Explicación: esta respuesta es incorrecta.
+PN1134,2,Historia,23,Moderna,4,¿En qué época ocurrió la guerra en Moderna?,RN11341,1,no,Respuesta A,Explicación: esta respuesta es incorrecta.
+PN1134,2,Historia,23,Moderna,4,¿En qué época ocurrió la guerra en Moderna?,RN11342,2,no,Respuesta B,Explicación: esta respuesta es incorrecta.
+PN1134,2,Historia,23,Moderna,4,¿En qué época ocurrió la guerra en Moderna?,RN11343,3,no,Respuesta C,Explicación: esta respuesta es incorrecta.
+PN1134,2,Historia,23,Moderna,4,¿En qué época ocurrió la guerra en Moderna?,RN11344,4,sí,Respuesta D,Explicación: esta es la respuesta correcta.
+PN1135,2,Historia,24,Contemporánea,1,¿Cuál es la capital de Contemporánea?,RN11351,1,sí,Madrid,Explicación: esta es la respuesta correcta.
+PN1135,2,Historia,24,Contemporánea,1,¿Cuál es la capital de Contemporánea?,RN11352,2,no,Paris,Explicación: esta respuesta es incorrecta.
+PN1135,2,Historia,24,Contemporánea,1,¿Cuál es la capital de Contemporánea?,RN11353,3,no,London,Explicación: esta respuesta es incorrecta.
+PN1135,2,Historia,24,Contemporánea,1,¿Cuál es la capital de Contemporánea?,RN11354,4,no,Berlin,Explicación: esta respuesta es incorrecta.
+PN1136,2,Historia,24,Contemporánea,2,¿Qué río es el más largo de Contemporánea?,RN11361,1,sí,Amazonas,Explicación: esta es la respuesta correcta.
+PN1136,2,Historia,24,Contemporánea,2,¿Qué río es el más largo de Contemporánea?,RN11362,2,no,Nilo,Explicación: esta respuesta es incorrecta.
+PN1136,2,Historia,24,Contemporánea,2,¿Qué río es el más largo de Contemporánea?,RN11363,3,no,Misisipi,Explicación: esta respuesta es incorrecta.
+PN1136,2,Historia,24,Contemporánea,2,¿Qué río es el más largo de Contemporánea?,RN11364,4,no,Yangtsé,Explicación: esta respuesta es incorrecta.
+PN1137,2,Historia,24,Contemporánea,3,¿Cuál es la montaña más alta en Contemporánea?,RN11371,1,sí,Respuesta A,Explicación: esta es la respuesta correcta.
+PN1137,2,Historia,24,Contemporánea,3,¿Cuál es la montaña más alta en Contemporánea?,RN11372,2,no,Respuesta B,Explicación: esta respuesta es incorrecta.
+PN1137,2,Historia,24,Contemporánea,3,¿Cuál es la montaña más alta en Contemporánea?,RN11373,3,no,Respuesta C,Explicación: esta respuesta es incorrecta.
+PN1137,2,Historia,24,Contemporánea,3,¿Cuál es la montaña más alta en Contemporánea?,RN11374,4,no,Respuesta D,Explicación: esta respuesta es incorrecta.
+PN1138,2,Historia,24,Contemporánea,4,¿En qué época ocurrió la guerra en Contemporánea?,RN11381,1,no,Respuesta A,Explicación: esta respuesta es incorrecta.
+PN1138,2,Historia,24,Contemporánea,4,¿En qué época ocurrió la guerra en Contemporánea?,RN11382,2,no,Respuesta B,Explicación: esta respuesta es incorrecta.
+PN1138,2,Historia,24,Contemporánea,4,¿En qué época ocurrió la guerra en Contemporánea?,RN11383,3,no,Respuesta C,Explicación: esta respuesta es incorrecta.
+PN1138,2,Historia,24,Contemporánea,4,¿En qué época ocurrió la guerra en Contemporánea?,RN11384,4,sí,Respuesta D,Explicación: esta es la respuesta correcta.
+PN1139,3,Ciencia,25,Física,1,¿Cuál es la capital de Física?,RN11391,1,sí,Madrid,Explicación: esta es la respuesta correcta.
+PN1139,3,Ciencia,25,Física,1,¿Cuál es la capital de Física?,RN11392,2,no,Paris,Explicación: esta respuesta es incorrecta.
+PN1139,3,Ciencia,25,Física,1,¿Cuál es la capital de Física?,RN11393,3,no,London,Explicación: esta respuesta es incorrecta.
+PN1139,3,Ciencia,25,Física,1,¿Cuál es la capital de Física?,RN11394,4,no,Berlin,Explicación: esta respuesta es incorrecta.
+PN1140,3,Ciencia,25,Física,2,¿Qué río es el más largo de Física?,RN11401,1,sí,Amazonas,Explicación: esta es la respuesta correcta.
+PN1140,3,Ciencia,25,Física,2,¿Qué río es el más largo de Física?,RN11402,2,no,Nilo,Explicación: esta respuesta es incorrecta.
+PN1140,3,Ciencia,25,Física,2,¿Qué río es el más largo de Física?,RN11403,3,no,Misisipi,Explicación: esta respuesta es incorrecta.
+PN1140,3,Ciencia,25,Física,2,¿Qué río es el más largo de Física?,RN11404,4,no,Yangtsé,Explicación: esta respuesta es incorrecta.
+PN1141,3,Ciencia,25,Física,3,¿Cuál es la montaña más alta en Física?,RN11411,1,sí,Respuesta A,Explicación: esta es la respuesta correcta.
+PN1141,3,Ciencia,25,Física,3,¿Cuál es la montaña más alta en Física?,RN11412,2,no,Respuesta B,Explicación: esta respuesta es incorrecta.
+PN1141,3,Ciencia,25,Física,3,¿Cuál es la montaña más alta en Física?,RN11413,3,no,Respuesta C,Explicación: esta respuesta es incorrecta.
+PN1141,3,Ciencia,25,Física,3,¿Cuál es la montaña más alta en Física?,RN11414,4,no,Respuesta D,Explicación: esta respuesta es incorrecta.
+PN1142,3,Ciencia,25,Física,4,¿En qué época ocurrió la guerra en Física?,RN11421,1,no,Respuesta A,Explicación: esta respuesta es incorrecta.
+PN1142,3,Ciencia,25,Física,4,¿En qué época ocurrió la guerra en Física?,RN11422,2,no,Respuesta B,Explicación: esta respuesta es incorrecta.
+PN1142,3,Ciencia,25,Física,4,¿En qué época ocurrió la guerra en Física?,RN11423,3,no,Respuesta C,Explicación: esta respuesta es incorrecta.
+PN1142,3,Ciencia,25,Física,4,¿En qué época ocurrió la guerra en Física?,RN11424,4,sí,Respuesta D,Explicación: esta es la respuesta correcta.
+PN1143,3,Ciencia,26,Química,1,¿Cuál es la capital de Química?,RN11431,1,sí,Madrid,Explicación: esta es la respuesta correcta.
+PN1143,3,Ciencia,26,Química,1,¿Cuál es la capital de Química?,RN11432,2,no,Paris,Explicación: esta respuesta es incorrecta.
+PN1143,3,Ciencia,26,Química,1,¿Cuál es la capital de Química?,RN11433,3,no,London,Explicación: esta respuesta es incorrecta.
+PN1143,3,Ciencia,26,Química,1,¿Cuál es la capital de Química?,RN11434,4,no,Berlin,Explicación: esta respuesta es incorrecta.
+PN1144,3,Ciencia,26,Química,2,¿Qué río es el más largo de Química?,RN11441,1,sí,Amazonas,Explicación: esta es la respuesta correcta.
+PN1144,3,Ciencia,26,Química,2,¿Qué río es el más largo de Química?,RN11442,2,no,Nilo,Explicación: esta respuesta es incorrecta.
+PN1144,3,Ciencia,26,Química,2,¿Qué río es el más largo de Química?,RN11443,3,no,Misisipi,Explicación: esta respuesta es incorrecta.
+PN1144,3,Ciencia,26,Química,2,¿Qué río es el más largo de Química?,RN11444,4,no,Yangtsé,Explicación: esta respuesta es incorrecta.
+PN1145,3,Ciencia,26,Química,3,¿Cuál es la montaña más alta en Química?,RN11451,1,sí,Respuesta A,Explicación: esta es la respuesta correcta.
+PN1145,3,Ciencia,26,Química,3,¿Cuál es la montaña más alta en Química?,RN11452,2,no,Respuesta B,Explicación: esta respuesta es incorrecta.
+PN1145,3,Ciencia,26,Química,3,¿Cuál es la montaña más alta en Química?,RN11453,3,no,Respuesta C,Explicación: esta respuesta es incorrecta.
+PN1145,3,Ciencia,26,Química,3,¿Cuál es la montaña más alta en Química?,RN11454,4,no,Respuesta D,Explicación: esta respuesta es incorrecta.
+PN1146,3,Ciencia,26,Química,4,¿En qué época ocurrió la guerra en Química?,RN11461,1,no,Respuesta A,Explicación: esta respuesta es incorrecta.
+PN1146,3,Ciencia,26,Química,4,¿En qué época ocurrió la guerra en Química?,RN11462,2,no,Respuesta B,Explicación: esta respuesta es incorrecta.
+PN1146,3,Ciencia,26,Química,4,¿En qué época ocurrió la guerra en Química?,RN11463,3,no,Respuesta C,Explicación: esta respuesta es incorrecta.
+PN1146,3,Ciencia,26,Química,4,¿En qué época ocurrió la guerra en Química?,RN11464,4,sí,Respuesta D,Explicación: esta es la respuesta correcta.
+PN1147,3,Ciencia,27,Biología,1,¿Cuál es la capital de Biología?,RN11471,1,sí,Madrid,Explicación: esta es la respuesta correcta.
+PN1147,3,Ciencia,27,Biología,1,¿Cuál es la capital de Biología?,RN11472,2,no,Paris,Explicación: esta respuesta es incorrecta.
+PN1147,3,Ciencia,27,Biología,1,¿Cuál es la capital de Biología?,RN11473,3,no,London,Explicación: esta respuesta es incorrecta.
+PN1147,3,Ciencia,27,Biología,1,¿Cuál es la capital de Biología?,RN11474,4,no,Berlin,Explicación: esta respuesta es incorrecta.
+PN1148,3,Ciencia,27,Biología,2,¿Qué río es el más largo de Biología?,RN11481,1,sí,Amazonas,Explicación: esta es la respuesta correcta.
+PN1148,3,Ciencia,27,Biología,2,¿Qué río es el más largo de Biología?,RN11482,2,no,Nilo,Explicación: esta respuesta es incorrecta.
+PN1148,3,Ciencia,27,Biología,2,¿Qué río es el más largo de Biología?,RN11483,3,no,Misisipi,Explicación: esta respuesta es incorrecta.
+PN1148,3,Ciencia,27,Biología,2,¿Qué río es el más largo de Biología?,RN11484,4,no,Yangtsé,Explicación: esta respuesta es incorrecta.
+PN1149,3,Ciencia,27,Biología,3,¿Cuál es la montaña más alta en Biología?,RN11491,1,sí,Respuesta A,Explicación: esta es la respuesta correcta.
+PN1149,3,Ciencia,27,Biología,3,¿Cuál es la montaña más alta en Biología?,RN11492,2,no,Respuesta B,Explicación: esta respuesta es incorrecta.
+PN1149,3,Ciencia,27,Biología,3,¿Cuál es la montaña más alta en Biología?,RN11493,3,no,Respuesta C,Explicación: esta respuesta es incorrecta.
+PN1149,3,Ciencia,27,Biología,3,¿Cuál es la montaña más alta en Biología?,RN11494,4,no,Respuesta D,Explicación: esta respuesta es incorrecta.
+PN1150,3,Ciencia,27,Biología,4,¿En qué época ocurrió la guerra en Biología?,RN11501,1,no,Respuesta A,Explicación: esta respuesta es incorrecta.
+PN1150,3,Ciencia,27,Biología,4,¿En qué época ocurrió la guerra en Biología?,RN11502,2,no,Respuesta B,Explicación: esta respuesta es incorrecta.
+PN1150,3,Ciencia,27,Biología,4,¿En qué época ocurrió la guerra en Biología?,RN11503,3,no,Respuesta C,Explicación: esta respuesta es incorrecta.
+PN1150,3,Ciencia,27,Biología,4,¿En qué época ocurrió la guerra en Biología?,RN11504,4,sí,Respuesta D,Explicación: esta es la respuesta correcta.
+PN1151,4,Matemáticas,28,Álgebra,1,¿Cuál es la capital de Álgebra?,RN11511,1,sí,Madrid,Explicación: esta es la respuesta correcta.
+PN1151,4,Matemáticas,28,Álgebra,1,¿Cuál es la capital de Álgebra?,RN11512,2,no,Paris,Explicación: esta respuesta es incorrecta.
+PN1151,4,Matemáticas,28,Álgebra,1,¿Cuál es la capital de Álgebra?,RN11513,3,no,London,Explicación: esta respuesta es incorrecta.
+PN1151,4,Matemáticas,28,Álgebra,1,¿Cuál es la capital de Álgebra?,RN11514,4,no,Berlin,Explicación: esta respuesta es incorrecta.
+PN1152,4,Matemáticas,28,Álgebra,2,¿Qué río es el más largo de Álgebra?,RN11521,1,sí,Amazonas,Explicación: esta es la respuesta correcta.
+PN1152,4,Matemáticas,28,Álgebra,2,¿Qué río es el más largo de Álgebra?,RN11522,2,no,Nilo,Explicación: esta respuesta es incorrecta.
+PN1152,4,Matemáticas,28,Álgebra,2,¿Qué río es el más largo de Álgebra?,RN11523,3,no,Misisipi,Explicación: esta respuesta es incorrecta.
+PN1152,4,Matemáticas,28,Álgebra,2,¿Qué río es el más largo de Álgebra?,RN11524,4,no,Yangtsé,Explicación: esta respuesta es incorrecta.
+PN1153,4,Matemáticas,28,Álgebra,3,¿Cuál es la montaña más alta en Álgebra?,RN11531,1,sí,Respuesta A,Explicación: esta es la respuesta correcta.
+PN1153,4,Matemáticas,28,Álgebra,3,¿Cuál es la montaña más alta en Álgebra?,RN11532,2,no,Respuesta B,Explicación: esta respuesta es incorrecta.
+PN1153,4,Matemáticas,28,Álgebra,3,¿Cuál es la montaña más alta en Álgebra?,RN11533,3,no,Respuesta C,Explicación: esta respuesta es incorrecta.
+PN1153,4,Matemáticas,28,Álgebra,3,¿Cuál es la montaña más alta en Álgebra?,RN11534,4,no,Respuesta D,Explicación: esta respuesta es incorrecta.
+PN1154,4,Matemáticas,28,Álgebra,4,¿En qué época ocurrió la guerra en Álgebra?,RN11541,1,no,Respuesta A,Explicación: esta respuesta es incorrecta.
+PN1154,4,Matemáticas,28,Álgebra,4,¿En qué época ocurrió la guerra en Álgebra?,RN11542,2,no,Respuesta B,Explicación: esta respuesta es incorrecta.
+PN1154,4,Matemáticas,28,Álgebra,4,¿En qué época ocurrió la guerra en Álgebra?,RN11543,3,no,Respuesta C,Explicación: esta respuesta es incorrecta.
+PN1154,4,Matemáticas,28,Álgebra,4,¿En qué época ocurrió la guerra en Álgebra?,RN11544,4,sí,Respuesta D,Explicación: esta es la respuesta correcta.
+PN1155,4,Matemáticas,29,Geometría,1,¿Cuál es la capital de Geometría?,RN11551,1,sí,Madrid,Explicación: esta es la respuesta correcta.
+PN1155,4,Matemáticas,29,Geometría,1,¿Cuál es la capital de Geometría?,RN11552,2,no,Paris,Explicación: esta respuesta es incorrecta.
+PN1155,4,Matemáticas,29,Geometría,1,¿Cuál es la capital de Geometría?,RN11553,3,no,London,Explicación: esta respuesta es incorrecta.
+PN1155,4,Matemáticas,29,Geometría,1,¿Cuál es la capital de Geometría?,RN11554,4,no,Berlin,Explicación: esta respuesta es incorrecta.
+PN1156,4,Matemáticas,29,Geometría,2,¿Qué río es el más largo de Geometría?,RN11561,1,sí,Amazonas,Explicación: esta es la respuesta correcta.
+PN1156,4,Matemáticas,29,Geometría,2,¿Qué río es el más largo de Geometría?,RN11562,2,no,Nilo,Explicación: esta respuesta es incorrecta.
+PN1156,4,Matemáticas,29,Geometría,2,¿Qué río es el más largo de Geometría?,RN11563,3,no,Misisipi,Explicación: esta respuesta es incorrecta.
+PN1156,4,Matemáticas,29,Geometría,2,¿Qué río es el más largo de Geometría?,RN11564,4,no,Yangtsé,Explicación: esta respuesta es incorrecta.
+PN1157,4,Matemáticas,29,Geometría,3,¿Cuál es la montaña más alta en Geometría?,RN11571,1,sí,Respuesta A,Explicación: esta es la respuesta correcta.
+PN1157,4,Matemáticas,29,Geometría,3,¿Cuál es la montaña más alta en Geometría?,RN11572,2,no,Respuesta B,Explicación: esta respuesta es incorrecta.
+PN1157,4,Matemáticas,29,Geometría,3,¿Cuál es la montaña más alta en Geometría?,RN11573,3,no,Respuesta C,Explicación: esta respuesta es incorrecta.
+PN1157,4,Matemáticas,29,Geometría,3,¿Cuál es la montaña más alta en Geometría?,RN11574,4,no,Respuesta D,Explicación: esta respuesta es incorrecta.
+PN1158,4,Matemáticas,29,Geometría,4,¿En qué época ocurrió la guerra en Geometría?,RN11581,1,no,Respuesta A,Explicación: esta respuesta es incorrecta.
+PN1158,4,Matemáticas,29,Geometría,4,¿En qué época ocurrió la guerra en Geometría?,RN11582,2,no,Respuesta B,Explicación: esta respuesta es incorrecta.
+PN1158,4,Matemáticas,29,Geometría,4,¿En qué época ocurrió la guerra en Geometría?,RN11583,3,no,Respuesta C,Explicación: esta respuesta es incorrecta.
+PN1158,4,Matemáticas,29,Geometría,4,¿En qué época ocurrió la guerra en Geometría?,RN11584,4,sí,Respuesta D,Explicación: esta es la respuesta correcta.
+PN1159,4,Matemáticas,30,Cálculo,1,¿Cuál es la capital de Cálculo?,RN11591,1,sí,Madrid,Explicación: esta es la respuesta correcta.
+PN1159,4,Matemáticas,30,Cálculo,1,¿Cuál es la capital de Cálculo?,RN11592,2,no,Paris,Explicación: esta respuesta es incorrecta.
+PN1159,4,Matemáticas,30,Cálculo,1,¿Cuál es la capital de Cálculo?,RN11593,3,no,London,Explicación: esta respuesta es incorrecta.
+PN1159,4,Matemáticas,30,Cálculo,1,¿Cuál es la capital de Cálculo?,RN11594,4,no,Berlin,Explicación: esta respuesta es incorrecta.
+PN1160,4,Matemáticas,30,Cálculo,2,¿Qué río es el más largo de Cálculo?,RN11601,1,sí,Amazonas,Explicación: esta es la respuesta correcta.
+PN1160,4,Matemáticas,30,Cálculo,2,¿Qué río es el más largo de Cálculo?,RN11602,2,no,Nilo,Explicación: esta respuesta es incorrecta.
+PN1160,4,Matemáticas,30,Cálculo,2,¿Qué río es el más largo de Cálculo?,RN11603,3,no,Misisipi,Explicación: esta respuesta es incorrecta.
+PN1160,4,Matemáticas,30,Cálculo,2,¿Qué río es el más largo de Cálculo?,RN11604,4,no,Yangtsé,Explicación: esta respuesta es incorrecta.
+PN1161,4,Matemáticas,30,Cálculo,3,¿Cuál es la montaña más alta en Cálculo?,RN11611,1,sí,Respuesta A,Explicación: esta es la respuesta correcta.
+PN1161,4,Matemáticas,30,Cálculo,3,¿Cuál es la montaña más alta en Cálculo?,RN11612,2,no,Respuesta B,Explicación: esta respuesta es incorrecta.
+PN1161,4,Matemáticas,30,Cálculo,3,¿Cuál es la montaña más alta en Cálculo?,RN11613,3,no,Respuesta C,Explicación: esta respuesta es incorrecta.
+PN1161,4,Matemáticas,30,Cálculo,3,¿Cuál es la montaña más alta en Cálculo?,RN11614,4,no,Respuesta D,Explicación: esta respuesta es incorrecta.
+PN1162,4,Matemáticas,30,Cálculo,4,¿En qué época ocurrió la guerra en Cálculo?,RN11621,1,no,Respuesta A,Explicación: esta respuesta es incorrecta.
+PN1162,4,Matemáticas,30,Cálculo,4,¿En qué época ocurrió la guerra en Cálculo?,RN11622,2,no,Respuesta B,Explicación: esta respuesta es incorrecta.
+PN1162,4,Matemáticas,30,Cálculo,4,¿En qué época ocurrió la guerra en Cálculo?,RN11623,3,no,Respuesta C,Explicación: esta respuesta es incorrecta.
+PN1162,4,Matemáticas,30,Cálculo,4,¿En qué época ocurrió la guerra en Cálculo?,RN11624,4,sí,Respuesta D,Explicación: esta es la respuesta correcta.
+PN1163,5,Literatura,31,Poesía,1,¿Cuál es la capital de Poesía?,RN11631,1,sí,Madrid,Explicación: esta es la respuesta correcta.
+PN1163,5,Literatura,31,Poesía,1,¿Cuál es la capital de Poesía?,RN11632,2,no,Paris,Explicación: esta respuesta es incorrecta.
+PN1163,5,Literatura,31,Poesía,1,¿Cuál es la capital de Poesía?,RN11633,3,no,London,Explicación: esta respuesta es incorrecta.
+PN1163,5,Literatura,31,Poesía,1,¿Cuál es la capital de Poesía?,RN11634,4,no,Berlin,Explicación: esta respuesta es incorrecta.
+PN1164,5,Literatura,31,Poesía,2,¿Qué río es el más largo de Poesía?,RN11641,1,sí,Amazonas,Explicación: esta es la respuesta correcta.
+PN1164,5,Literatura,31,Poesía,2,¿Qué río es el más largo de Poesía?,RN11642,2,no,Nilo,Explicación: esta respuesta es incorrecta.
+PN1164,5,Literatura,31,Poesía,2,¿Qué río es el más largo de Poesía?,RN11643,3,no,Misisipi,Explicación: esta respuesta es incorrecta.
+PN1164,5,Literatura,31,Poesía,2,¿Qué río es el más largo de Poesía?,RN11644,4,no,Yangtsé,Explicación: esta respuesta es incorrecta.
+PN1165,5,Literatura,31,Poesía,3,¿Cuál es la montaña más alta en Poesía?,RN11651,1,sí,Respuesta A,Explicación: esta es la respuesta correcta.
+PN1165,5,Literatura,31,Poesía,3,¿Cuál es la montaña más alta en Poesía?,RN11652,2,no,Respuesta B,Explicación: esta respuesta es incorrecta.
+PN1165,5,Literatura,31,Poesía,3,¿Cuál es la montaña más alta en Poesía?,RN11653,3,no,Respuesta C,Explicación: esta respuesta es incorrecta.
+PN1165,5,Literatura,31,Poesía,3,¿Cuál es la montaña más alta en Poesía?,RN11654,4,no,Respuesta D,Explicación: esta respuesta es incorrecta.
+PN1166,5,Literatura,31,Poesía,4,¿En qué época ocurrió la guerra en Poesía?,RN11661,1,no,Respuesta A,Explicación: esta respuesta es incorrecta.
+PN1166,5,Literatura,31,Poesía,4,¿En qué época ocurrió la guerra en Poesía?,RN11662,2,no,Respuesta B,Explicación: esta respuesta es incorrecta.
+PN1166,5,Literatura,31,Poesía,4,¿En qué época ocurrió la guerra en Poesía?,RN11663,3,no,Respuesta C,Explicación: esta respuesta es incorrecta.
+PN1166,5,Literatura,31,Poesía,4,¿En qué época ocurrió la guerra en Poesía?,RN11664,4,sí,Respuesta D,Explicación: esta es la respuesta correcta.
+PN1167,5,Literatura,32,Novela,1,¿Cuál es la capital de Novela?,RN11671,1,sí,Madrid,Explicación: esta es la respuesta correcta.
+PN1167,5,Literatura,32,Novela,1,¿Cuál es la capital de Novela?,RN11672,2,no,Paris,Explicación: esta respuesta es incorrecta.
+PN1167,5,Literatura,32,Novela,1,¿Cuál es la capital de Novela?,RN11673,3,no,London,Explicación: esta respuesta es incorrecta.
+PN1167,5,Literatura,32,Novela,1,¿Cuál es la capital de Novela?,RN11674,4,no,Berlin,Explicación: esta respuesta es incorrecta.
+PN1168,5,Literatura,32,Novela,2,¿Qué río es el más largo de Novela?,RN11681,1,sí,Amazonas,Explicación: esta es la respuesta correcta.
+PN1168,5,Literatura,32,Novela,2,¿Qué río es el más largo de Novela?,RN11682,2,no,Nilo,Explicación: esta respuesta es incorrecta.
+PN1168,5,Literatura,32,Novela,2,¿Qué río es el más largo de Novela?,RN11683,3,no,Misisipi,Explicación: esta respuesta es incorrecta.
+PN1168,5,Literatura,32,Novela,2,¿Qué río es el más largo de Novela?,RN11684,4,no,Yangtsé,Explicación: esta respuesta es incorrecta.
+PN1169,5,Literatura,32,Novela,3,¿Cuál es la montaña más alta en Novela?,RN11691,1,sí,Respuesta A,Explicación: esta es la respuesta correcta.
+PN1169,5,Literatura,32,Novela,3,¿Cuál es la montaña más alta en Novela?,RN11692,2,no,Respuesta B,Explicación: esta respuesta es incorrecta.
+PN1169,5,Literatura,32,Novela,3,¿Cuál es la montaña más alta en Novela?,RN11693,3,no,Respuesta C,Explicación: esta respuesta es incorrecta.
+PN1169,5,Literatura,32,Novela,3,¿Cuál es la montaña más alta en Novela?,RN11694,4,no,Respuesta D,Explicación: esta respuesta es incorrecta.
+PN1170,5,Literatura,32,Novela,4,¿En qué época ocurrió la guerra en Novela?,RN11701,1,no,Respuesta A,Explicación: esta respuesta es incorrecta.
+PN1170,5,Literatura,32,Novela,4,¿En qué época ocurrió la guerra en Novela?,RN11702,2,no,Respuesta B,Explicación: esta respuesta es incorrecta.
+PN1170,5,Literatura,32,Novela,4,¿En qué época ocurrió la guerra en Novela?,RN11703,3,no,Respuesta C,Explicación: esta respuesta es incorrecta.
+PN1170,5,Literatura,32,Novela,4,¿En qué época ocurrió la guerra en Novela?,RN11704,4,sí,Respuesta D,Explicación: esta es la respuesta correcta.
+PN1171,5,Literatura,33,Ensayo,1,¿Cuál es la capital de Ensayo?,RN11711,1,sí,Madrid,Explicación: esta es la respuesta correcta.
+PN1171,5,Literatura,33,Ensayo,1,¿Cuál es la capital de Ensayo?,RN11712,2,no,Paris,Explicación: esta respuesta es incorrecta.
+PN1171,5,Literatura,33,Ensayo,1,¿Cuál es la capital de Ensayo?,RN11713,3,no,London,Explicación: esta respuesta es incorrecta.
+PN1171,5,Literatura,33,Ensayo,1,¿Cuál es la capital de Ensayo?,RN11714,4,no,Berlin,Explicación: esta respuesta es incorrecta.
+PN1172,5,Literatura,33,Ensayo,2,¿Qué río es el más largo de Ensayo?,RN11721,1,sí,Amazonas,Explicación: esta es la respuesta correcta.
+PN1172,5,Literatura,33,Ensayo,2,¿Qué río es el más largo de Ensayo?,RN11722,2,no,Nilo,Explicación: esta respuesta es incorrecta.
+PN1172,5,Literatura,33,Ensayo,2,¿Qué río es el más largo de Ensayo?,RN11723,3,no,Misisipi,Explicación: esta respuesta es incorrecta.
+PN1172,5,Literatura,33,Ensayo,2,¿Qué río es el más largo de Ensayo?,RN11724,4,no,Yangtsé,Explicación: esta respuesta es incorrecta.
+PN1173,5,Literatura,33,Ensayo,3,¿Cuál es la montaña más alta en Ensayo?,RN11731,1,sí,Respuesta A,Explicación: esta es la respuesta correcta.
+PN1173,5,Literatura,33,Ensayo,3,¿Cuál es la montaña más alta en Ensayo?,RN11732,2,no,Respuesta B,Explicación: esta respuesta es incorrecta.
+PN1173,5,Literatura,33,Ensayo,3,¿Cuál es la montaña más alta en Ensayo?,RN11733,3,no,Respuesta C,Explicación: esta respuesta es incorrecta.
+PN1173,5,Literatura,33,Ensayo,3,¿Cuál es la montaña más alta en Ensayo?,RN11734,4,no,Respuesta D,Explicación: esta respuesta es incorrecta.
+PN1174,5,Literatura,33,Ensayo,4,¿En qué época ocurrió la guerra en Ensayo?,RN11741,1,no,Respuesta A,Explicación: esta respuesta es incorrecta.
+PN1174,5,Literatura,33,Ensayo,4,¿En qué época ocurrió la guerra en Ensayo?,RN11742,2,no,Respuesta B,Explicación: esta respuesta es incorrecta.
+PN1174,5,Literatura,33,Ensayo,4,¿En qué época ocurrió la guerra en Ensayo?,RN11743,3,no,Respuesta C,Explicación: esta respuesta es incorrecta.
+PN1174,5,Literatura,33,Ensayo,4,¿En qué época ocurrió la guerra en Ensayo?,RN11744,4,sí,Respuesta D,Explicación: esta es la respuesta correcta.
+PN1175,6,Arte,34,Pintura,1,¿Cuál es la capital de Pintura?,RN11751,1,sí,Madrid,Explicación: esta es la respuesta correcta.
+PN1175,6,Arte,34,Pintura,1,¿Cuál es la capital de Pintura?,RN11752,2,no,Paris,Explicación: esta respuesta es incorrecta.
+PN1175,6,Arte,34,Pintura,1,¿Cuál es la capital de Pintura?,RN11753,3,no,London,Explicación: esta respuesta es incorrecta.
+PN1175,6,Arte,34,Pintura,1,¿Cuál es la capital de Pintura?,RN11754,4,no,Berlin,Explicación: esta respuesta es incorrecta.
+PN1176,6,Arte,34,Pintura,2,¿Qué río es el más largo de Pintura?,RN11761,1,sí,Amazonas,Explicación: esta es la respuesta correcta.
+PN1176,6,Arte,34,Pintura,2,¿Qué río es el más largo de Pintura?,RN11762,2,no,Nilo,Explicación: esta respuesta es incorrecta.
+PN1176,6,Arte,34,Pintura,2,¿Qué río es el más largo de Pintura?,RN11763,3,no,Misisipi,Explicación: esta respuesta es incorrecta.
+PN1176,6,Arte,34,Pintura,2,¿Qué río es el más largo de Pintura?,RN11764,4,no,Yangtsé,Explicación: esta respuesta es incorrecta.
+PN1177,6,Arte,34,Pintura,3,¿Cuál es la montaña más alta en Pintura?,RN11771,1,sí,Respuesta A,Explicación: esta es la respuesta correcta.
+PN1177,6,Arte,34,Pintura,3,¿Cuál es la montaña más alta en Pintura?,RN11772,2,no,Respuesta B,Explicación: esta respuesta es incorrecta.
+PN1177,6,Arte,34,Pintura,3,¿Cuál es la montaña más alta en Pintura?,RN11773,3,no,Respuesta C,Explicación: esta respuesta es incorrecta.
+PN1177,6,Arte,34,Pintura,3,¿Cuál es la montaña más alta en Pintura?,RN11774,4,no,Respuesta D,Explicación: esta respuesta es incorrecta.
+PN1178,6,Arte,34,Pintura,4,¿En qué época ocurrió la guerra en Pintura?,RN11781,1,no,Respuesta A,Explicación: esta respuesta es incorrecta.
+PN1178,6,Arte,34,Pintura,4,¿En qué época ocurrió la guerra en Pintura?,RN11782,2,no,Respuesta B,Explicación: esta respuesta es incorrecta.
+PN1178,6,Arte,34,Pintura,4,¿En qué época ocurrió la guerra en Pintura?,RN11783,3,no,Respuesta C,Explicación: esta respuesta es incorrecta.
+PN1178,6,Arte,34,Pintura,4,¿En qué época ocurrió la guerra en Pintura?,RN11784,4,sí,Respuesta D,Explicación: esta es la respuesta correcta.
+PN1179,6,Arte,35,Escultura,1,¿Cuál es la capital de Escultura?,RN11791,1,sí,Madrid,Explicación: esta es la respuesta correcta.
+PN1179,6,Arte,35,Escultura,1,¿Cuál es la capital de Escultura?,RN11792,2,no,Paris,Explicación: esta respuesta es incorrecta.
+PN1179,6,Arte,35,Escultura,1,¿Cuál es la capital de Escultura?,RN11793,3,no,London,Explicación: esta respuesta es incorrecta.
+PN1179,6,Arte,35,Escultura,1,¿Cuál es la capital de Escultura?,RN11794,4,no,Berlin,Explicación: esta respuesta es incorrecta.
+PN1180,6,Arte,35,Escultura,2,¿Qué río es el más largo de Escultura?,RN11801,1,sí,Amazonas,Explicación: esta es la respuesta correcta.
+PN1180,6,Arte,35,Escultura,2,¿Qué río es el más largo de Escultura?,RN11802,2,no,Nilo,Explicación: esta respuesta es incorrecta.
+PN1180,6,Arte,35,Escultura,2,¿Qué río es el más largo de Escultura?,RN11803,3,no,Misisipi,Explicación: esta respuesta es incorrecta.
+PN1180,6,Arte,35,Escultura,2,¿Qué río es el más largo de Escultura?,RN11804,4,no,Yangtsé,Explicación: esta respuesta es incorrecta.
+PN1181,6,Arte,35,Escultura,3,¿Cuál es la montaña más alta en Escultura?,RN11811,1,sí,Respuesta A,Explicación: esta es la respuesta correcta.
+PN1181,6,Arte,35,Escultura,3,¿Cuál es la montaña más alta en Escultura?,RN11812,2,no,Respuesta B,Explicación: esta respuesta es incorrecta.
+PN1181,6,Arte,35,Escultura,3,¿Cuál es la montaña más alta en Escultura?,RN11813,3,no,Respuesta C,Explicación: esta respuesta es incorrecta.
+PN1181,6,Arte,35,Escultura,3,¿Cuál es la montaña más alta en Escultura?,RN11814,4,no,Respuesta D,Explicación: esta respuesta es incorrecta.
+PN1182,6,Arte,35,Escultura,4,¿En qué época ocurrió la guerra en Escultura?,RN11821,1,no,Respuesta A,Explicación: esta respuesta es incorrecta.
+PN1182,6,Arte,35,Escultura,4,¿En qué época ocurrió la guerra en Escultura?,RN11822,2,no,Respuesta B,Explicación: esta respuesta es incorrecta.
+PN1182,6,Arte,35,Escultura,4,¿En qué época ocurrió la guerra en Escultura?,RN11823,3,no,Respuesta C,Explicación: esta respuesta es incorrecta.
+PN1182,6,Arte,35,Escultura,4,¿En qué época ocurrió la guerra en Escultura?,RN11824,4,sí,Respuesta D,Explicación: esta es la respuesta correcta.
+PN1183,6,Arte,36,Arquitectura,1,¿Cuál es la capital de Arquitectura?,RN11831,1,sí,Madrid,Explicación: esta es la respuesta correcta.
+PN1183,6,Arte,36,Arquitectura,1,¿Cuál es la capital de Arquitectura?,RN11832,2,no,Paris,Explicación: esta respuesta es incorrecta.
+PN1183,6,Arte,36,Arquitectura,1,¿Cuál es la capital de Arquitectura?,RN11833,3,no,London,Explicación: esta respuesta es incorrecta.
+PN1183,6,Arte,36,Arquitectura,1,¿Cuál es la capital de Arquitectura?,RN11834,4,no,Berlin,Explicación: esta respuesta es incorrecta.
+PN1184,6,Arte,36,Arquitectura,2,¿Qué río es el más largo de Arquitectura?,RN11841,1,sí,Amazonas,Explicación: esta es la respuesta correcta.
+PN1184,6,Arte,36,Arquitectura,2,¿Qué río es el más largo de Arquitectura?,RN11842,2,no,Nilo,Explicación: esta respuesta es incorrecta.
+PN1184,6,Arte,36,Arquitectura,2,¿Qué río es el más largo de Arquitectura?,RN11843,3,no,Misisipi,Explicación: esta respuesta es incorrecta.
+PN1184,6,Arte,36,Arquitectura,2,¿Qué río es el más largo de Arquitectura?,RN11844,4,no,Yangtsé,Explicación: esta respuesta es incorrecta.
+PN1185,6,Arte,36,Arquitectura,3,¿Cuál es la montaña más alta en Arquitectura?,RN11851,1,sí,Respuesta A,Explicación: esta es la respuesta correcta.
+PN1185,6,Arte,36,Arquitectura,3,¿Cuál es la montaña más alta en Arquitectura?,RN11852,2,no,Respuesta B,Explicación: esta respuesta es incorrecta.
+PN1185,6,Arte,36,Arquitectura,3,¿Cuál es la montaña más alta en Arquitectura?,RN11853,3,no,Respuesta C,Explicación: esta respuesta es incorrecta.
+PN1185,6,Arte,36,Arquitectura,3,¿Cuál es la montaña más alta en Arquitectura?,RN11854,4,no,Respuesta D,Explicación: esta respuesta es incorrecta.
+PN1186,6,Arte,36,Arquitectura,4,¿En qué época ocurrió la guerra en Arquitectura?,RN11861,1,no,Respuesta A,Explicación: esta respuesta es incorrecta.
+PN1186,6,Arte,36,Arquitectura,4,¿En qué época ocurrió la guerra en Arquitectura?,RN11862,2,no,Respuesta B,Explicación: esta respuesta es incorrecta.
+PN1186,6,Arte,36,Arquitectura,4,¿En qué época ocurrió la guerra en Arquitectura?,RN11863,3,no,Respuesta C,Explicación: esta respuesta es incorrecta.
+PN1186,6,Arte,36,Arquitectura,4,¿En qué época ocurrió la guerra en Arquitectura?,RN11864,4,sí,Respuesta D,Explicación: esta es la respuesta correcta.
+PN1187,7,Música,37,Clásica,1,¿Cuál es la capital de Clásica?,RN11871,1,sí,Madrid,Explicación: esta es la respuesta correcta.
+PN1187,7,Música,37,Clásica,1,¿Cuál es la capital de Clásica?,RN11872,2,no,Paris,Explicación: esta respuesta es incorrecta.
+PN1187,7,Música,37,Clásica,1,¿Cuál es la capital de Clásica?,RN11873,3,no,London,Explicación: esta respuesta es incorrecta.
+PN1187,7,Música,37,Clásica,1,¿Cuál es la capital de Clásica?,RN11874,4,no,Berlin,Explicación: esta respuesta es incorrecta.
+PN1188,7,Música,37,Clásica,2,¿Qué río es el más largo de Clásica?,RN11881,1,sí,Amazonas,Explicación: esta es la respuesta correcta.
+PN1188,7,Música,37,Clásica,2,¿Qué río es el más largo de Clásica?,RN11882,2,no,Nilo,Explicación: esta respuesta es incorrecta.
+PN1188,7,Música,37,Clásica,2,¿Qué río es el más largo de Clásica?,RN11883,3,no,Misisipi,Explicación: esta respuesta es incorrecta.
+PN1188,7,Música,37,Clásica,2,¿Qué río es el más largo de Clásica?,RN11884,4,no,Yangtsé,Explicación: esta respuesta es incorrecta.
+PN1189,7,Música,37,Clásica,3,¿Cuál es la montaña más alta en Clásica?,RN11891,1,sí,Respuesta A,Explicación: esta es la respuesta correcta.
+PN1189,7,Música,37,Clásica,3,¿Cuál es la montaña más alta en Clásica?,RN11892,2,no,Respuesta B,Explicación: esta respuesta es incorrecta.
+PN1189,7,Música,37,Clásica,3,¿Cuál es la montaña más alta en Clásica?,RN11893,3,no,Respuesta C,Explicación: esta respuesta es incorrecta.
+PN1189,7,Música,37,Clásica,3,¿Cuál es la montaña más alta en Clásica?,RN11894,4,no,Respuesta D,Explicación: esta respuesta es incorrecta.
+PN1190,7,Música,37,Clásica,4,¿En qué época ocurrió la guerra en Clásica?,RN11901,1,no,Respuesta A,Explicación: esta respuesta es incorrecta.
+PN1190,7,Música,37,Clásica,4,¿En qué época ocurrió la guerra en Clásica?,RN11902,2,no,Respuesta B,Explicación: esta respuesta es incorrecta.
+PN1190,7,Música,37,Clásica,4,¿En qué época ocurrió la guerra en Clásica?,RN11903,3,no,Respuesta C,Explicación: esta respuesta es incorrecta.
+PN1190,7,Música,37,Clásica,4,¿En qué época ocurrió la guerra en Clásica?,RN11904,4,sí,Respuesta D,Explicación: esta es la respuesta correcta.
+PN1191,7,Música,38,Jazz,1,¿Cuál es la capital de Jazz?,RN11911,1,sí,Madrid,Explicación: esta es la respuesta correcta.
+PN1191,7,Música,38,Jazz,1,¿Cuál es la capital de Jazz?,RN11912,2,no,Paris,Explicación: esta respuesta es incorrecta.
+PN1191,7,Música,38,Jazz,1,¿Cuál es la capital de Jazz?,RN11913,3,no,London,Explicación: esta respuesta es incorrecta.
+PN1191,7,Música,38,Jazz,1,¿Cuál es la capital de Jazz?,RN11914,4,no,Berlin,Explicación: esta respuesta es incorrecta.
+PN1192,7,Música,38,Jazz,2,¿Qué río es el más largo de Jazz?,RN11921,1,sí,Amazonas,Explicación: esta es la respuesta correcta.
+PN1192,7,Música,38,Jazz,2,¿Qué río es el más largo de Jazz?,RN11922,2,no,Nilo,Explicación: esta respuesta es incorrecta.
+PN1192,7,Música,38,Jazz,2,¿Qué río es el más largo de Jazz?,RN11923,3,no,Misisipi,Explicación: esta respuesta es incorrecta.
+PN1192,7,Música,38,Jazz,2,¿Qué río es el más largo de Jazz?,RN11924,4,no,Yangtsé,Explicación: esta respuesta es incorrecta.
+PN1193,7,Música,38,Jazz,3,¿Cuál es la montaña más alta en Jazz?,RN11931,1,sí,Respuesta A,Explicación: esta es la respuesta correcta.
+PN1193,7,Música,38,Jazz,3,¿Cuál es la montaña más alta en Jazz?,RN11932,2,no,Respuesta B,Explicación: esta respuesta es incorrecta.
+PN1193,7,Música,38,Jazz,3,¿Cuál es la montaña más alta en Jazz?,RN11933,3,no,Respuesta C,Explicación: esta respuesta es incorrecta.
+PN1193,7,Música,38,Jazz,3,¿Cuál es la montaña más alta en Jazz?,RN11934,4,no,Respuesta D,Explicación: esta respuesta es incorrecta.
+PN1194,7,Música,38,Jazz,4,¿En qué época ocurrió la guerra en Jazz?,RN11941,1,no,Respuesta A,Explicación: esta respuesta es incorrecta.
+PN1194,7,Música,38,Jazz,4,¿En qué época ocurrió la guerra en Jazz?,RN11942,2,no,Respuesta B,Explicación: esta respuesta es incorrecta.
+PN1194,7,Música,38,Jazz,4,¿En qué época ocurrió la guerra en Jazz?,RN11943,3,no,Respuesta C,Explicación: esta respuesta es incorrecta.
+PN1194,7,Música,38,Jazz,4,¿En qué época ocurrió la guerra en Jazz?,RN11944,4,sí,Respuesta D,Explicación: esta es la respuesta correcta.
+PN1195,7,Música,39,Rock,1,¿Cuál es la capital de Rock?,RN11951,1,sí,Madrid,Explicación: esta es la respuesta correcta.
+PN1195,7,Música,39,Rock,1,¿Cuál es la capital de Rock?,RN11952,2,no,Paris,Explicación: esta respuesta es incorrecta.
+PN1195,7,Música,39,Rock,1,¿Cuál es la capital de Rock?,RN11953,3,no,London,Explicación: esta respuesta es incorrecta.
+PN1195,7,Música,39,Rock,1,¿Cuál es la capital de Rock?,RN11954,4,no,Berlin,Explicación: esta respuesta es incorrecta.
+PN1196,7,Música,39,Rock,2,¿Qué río es el más largo de Rock?,RN11961,1,sí,Amazonas,Explicación: esta es la respuesta correcta.
+PN1196,7,Música,39,Rock,2,¿Qué río es el más largo de Rock?,RN11962,2,no,Nilo,Explicación: esta respuesta es incorrecta.
+PN1196,7,Música,39,Rock,2,¿Qué río es el más largo de Rock?,RN11963,3,no,Misisipi,Explicación: esta respuesta es incorrecta.
+PN1196,7,Música,39,Rock,2,¿Qué río es el más largo de Rock?,RN11964,4,no,Yangtsé,Explicación: esta respuesta es incorrecta.
+PN1197,7,Música,39,Rock,3,¿Cuál es la montaña más alta en Rock?,RN11971,1,sí,Respuesta A,Explicación: esta es la respuesta correcta.
+PN1197,7,Música,39,Rock,3,¿Cuál es la montaña más alta en Rock?,RN11972,2,no,Respuesta B,Explicación: esta respuesta es incorrecta.
+PN1197,7,Música,39,Rock,3,¿Cuál es la montaña más alta en Rock?,RN11973,3,no,Respuesta C,Explicación: esta respuesta es incorrecta.
+PN1197,7,Música,39,Rock,3,¿Cuál es la montaña más alta en Rock?,RN11974,4,no,Respuesta D,Explicación: esta respuesta es incorrecta.
+PN1198,7,Música,39,Rock,4,¿En qué época ocurrió la guerra en Rock?,RN11981,1,no,Respuesta A,Explicación: esta respuesta es incorrecta.
+PN1198,7,Música,39,Rock,4,¿En qué época ocurrió la guerra en Rock?,RN11982,2,no,Respuesta B,Explicación: esta respuesta es incorrecta.
+PN1198,7,Música,39,Rock,4,¿En qué época ocurrió la guerra en Rock?,RN11983,3,no,Respuesta C,Explicación: esta respuesta es incorrecta.
+PN1198,7,Música,39,Rock,4,¿En qué época ocurrió la guerra en Rock?,RN11984,4,sí,Respuesta D,Explicación: esta es la respuesta correcta.
+PN1199,8,Tecnología,40,Informática,1,¿Cuál es la capital de Informática?,RN11991,1,sí,Madrid,Explicación: esta es la respuesta correcta.
+PN1199,8,Tecnología,40,Informática,1,¿Cuál es la capital de Informática?,RN11992,2,no,Paris,Explicación: esta respuesta es incorrecta.
+PN1199,8,Tecnología,40,Informática,1,¿Cuál es la capital de Informática?,RN11993,3,no,London,Explicación: esta respuesta es incorrecta.
+PN1199,8,Tecnología,40,Informática,1,¿Cuál es la capital de Informática?,RN11994,4,no,Berlin,Explicación: esta respuesta es incorrecta.
+PN1200,8,Tecnología,40,Informática,2,¿Qué río es el más largo de Informática?,RN12001,1,sí,Amazonas,Explicación: esta es la respuesta correcta.
+PN1200,8,Tecnología,40,Informática,2,¿Qué río es el más largo de Informática?,RN12002,2,no,Nilo,Explicación: esta respuesta es incorrecta.
+PN1200,8,Tecnología,40,Informática,2,¿Qué río es el más largo de Informática?,RN12003,3,no,Misisipi,Explicación: esta respuesta es incorrecta.
+PN1200,8,Tecnología,40,Informática,2,¿Qué río es el más largo de Informática?,RN12004,4,no,Yangtsé,Explicación: esta respuesta es incorrecta.
+PN1201,8,Tecnología,40,Informática,3,¿Cuál es la montaña más alta en Informática?,RN12011,1,sí,Respuesta A,Explicación: esta es la respuesta correcta.
+PN1201,8,Tecnología,40,Informática,3,¿Cuál es la montaña más alta en Informática?,RN12012,2,no,Respuesta B,Explicación: esta respuesta es incorrecta.
+PN1201,8,Tecnología,40,Informática,3,¿Cuál es la montaña más alta en Informática?,RN12013,3,no,Respuesta C,Explicación: esta respuesta es incorrecta.
+PN1201,8,Tecnología,40,Informática,3,¿Cuál es la montaña más alta en Informática?,RN12014,4,no,Respuesta D,Explicación: esta respuesta es incorrecta.
+PN1202,8,Tecnología,40,Informática,4,¿En qué época ocurrió la guerra en Informática?,RN12021,1,no,Respuesta A,Explicación: esta respuesta es incorrecta.
+PN1202,8,Tecnología,40,Informática,4,¿En qué época ocurrió la guerra en Informática?,RN12022,2,no,Respuesta B,Explicación: esta respuesta es incorrecta.
+PN1202,8,Tecnología,40,Informática,4,¿En qué época ocurrió la guerra en Informática?,RN12023,3,no,Respuesta C,Explicación: esta respuesta es incorrecta.
+PN1202,8,Tecnología,40,Informática,4,¿En qué época ocurrió la guerra en Informática?,RN12024,4,sí,Respuesta D,Explicación: esta es la respuesta correcta.
+PN1203,8,Tecnología,41,Robótica,1,¿Cuál es la capital de Robótica?,RN12031,1,sí,Madrid,Explicación: esta es la respuesta correcta.
+PN1203,8,Tecnología,41,Robótica,1,¿Cuál es la capital de Robótica?,RN12032,2,no,Paris,Explicación: esta respuesta es incorrecta.
+PN1203,8,Tecnología,41,Robótica,1,¿Cuál es la capital de Robótica?,RN12033,3,no,London,Explicación: esta respuesta es incorrecta.
+PN1203,8,Tecnología,41,Robótica,1,¿Cuál es la capital de Robótica?,RN12034,4,no,Berlin,Explicación: esta respuesta es incorrecta.
+PN1204,8,Tecnología,41,Robótica,2,¿Qué río es el más largo de Robótica?,RN12041,1,sí,Amazonas,Explicación: esta es la respuesta correcta.
+PN1204,8,Tecnología,41,Robótica,2,¿Qué río es el más largo de Robótica?,RN12042,2,no,Nilo,Explicación: esta respuesta es incorrecta.
+PN1204,8,Tecnología,41,Robótica,2,¿Qué río es el más largo de Robótica?,RN12043,3,no,Misisipi,Explicación: esta respuesta es incorrecta.
+PN1204,8,Tecnología,41,Robótica,2,¿Qué río es el más largo de Robótica?,RN12044,4,no,Yangtsé,Explicación: esta respuesta es incorrecta.
+PN1205,8,Tecnología,41,Robótica,3,¿Cuál es la montaña más alta en Robótica?,RN12051,1,sí,Respuesta A,Explicación: esta es la respuesta correcta.
+PN1205,8,Tecnología,41,Robótica,3,¿Cuál es la montaña más alta en Robótica?,RN12052,2,no,Respuesta B,Explicación: esta respuesta es incorrecta.
+PN1205,8,Tecnología,41,Robótica,3,¿Cuál es la montaña más alta en Robótica?,RN12053,3,no,Respuesta C,Explicación: esta respuesta es incorrecta.
+PN1205,8,Tecnología,41,Robótica,3,¿Cuál es la montaña más alta en Robótica?,RN12054,4,no,Respuesta D,Explicación: esta respuesta es incorrecta.
+PN1206,8,Tecnología,41,Robótica,4,¿En qué época ocurrió la guerra en Robótica?,RN12061,1,no,Respuesta A,Explicación: esta respuesta es incorrecta.
+PN1206,8,Tecnología,41,Robótica,4,¿En qué época ocurrió la guerra en Robótica?,RN12062,2,no,Respuesta B,Explicación: esta respuesta es incorrecta.
+PN1206,8,Tecnología,41,Robótica,4,¿En qué época ocurrió la guerra en Robótica?,RN12063,3,no,Respuesta C,Explicación: esta respuesta es incorrecta.
+PN1206,8,Tecnología,41,Robótica,4,¿En qué época ocurrió la guerra en Robótica?,RN12064,4,sí,Respuesta D,Explicación: esta es la respuesta correcta.
+PN1207,8,Tecnología,42,Inteligencia Artificial,1,¿Cuál es la capital de Inteligencia Artificial?,RN12071,1,sí,Madrid,Explicación: esta es la respuesta correcta.
+PN1207,8,Tecnología,42,Inteligencia Artificial,1,¿Cuál es la capital de Inteligencia Artificial?,RN12072,2,no,Paris,Explicación: esta respuesta es incorrecta.
+PN1207,8,Tecnología,42,Inteligencia Artificial,1,¿Cuál es la capital de Inteligencia Artificial?,RN12073,3,no,London,Explicación: esta respuesta es incorrecta.
+PN1207,8,Tecnología,42,Inteligencia Artificial,1,¿Cuál es la capital de Inteligencia Artificial?,RN12074,4,no,Berlin,Explicación: esta respuesta es incorrecta.
+PN1208,8,Tecnología,42,Inteligencia Artificial,2,¿Qué río es el más largo de Inteligencia Artificial?,RN12081,1,sí,Amazonas,Explicación: esta es la respuesta correcta.
+PN1208,8,Tecnología,42,Inteligencia Artificial,2,¿Qué río es el más largo de Inteligencia Artificial?,RN12082,2,no,Nilo,Explicación: esta respuesta es incorrecta.
+PN1208,8,Tecnología,42,Inteligencia Artificial,2,¿Qué río es el más largo de Inteligencia Artificial?,RN12083,3,no,Misisipi,Explicación: esta respuesta es incorrecta.
+PN1208,8,Tecnología,42,Inteligencia Artificial,2,¿Qué río es el más largo de Inteligencia Artificial?,RN12084,4,no,Yangtsé,Explicación: esta respuesta es incorrecta.
+PN1209,8,Tecnología,42,Inteligencia Artificial,3,¿Cuál es la montaña más alta en Inteligencia Artificial?,RN12091,1,sí,Respuesta A,Explicación: esta es la respuesta correcta.
+PN1209,8,Tecnología,42,Inteligencia Artificial,3,¿Cuál es la montaña más alta en Inteligencia Artificial?,RN12092,2,no,Respuesta B,Explicación: esta respuesta es incorrecta.
+PN1209,8,Tecnología,42,Inteligencia Artificial,3,¿Cuál es la montaña más alta en Inteligencia Artificial?,RN12093,3,no,Respuesta C,Explicación: esta respuesta es incorrecta.
+PN1209,8,Tecnología,42,Inteligencia Artificial,3,¿Cuál es la montaña más alta en Inteligencia Artificial?,RN12094,4,no,Respuesta D,Explicación: esta respuesta es incorrecta.
+PN1210,8,Tecnología,42,Inteligencia Artificial,4,¿En qué época ocurrió la guerra en Inteligencia Artificial?,RN12101,1,no,Respuesta A,Explicación: esta respuesta es incorrecta.
+PN1210,8,Tecnología,42,Inteligencia Artificial,4,¿En qué época ocurrió la guerra en Inteligencia Artificial?,RN12102,2,no,Respuesta B,Explicación: esta respuesta es incorrecta.
+PN1210,8,Tecnología,42,Inteligencia Artificial,4,¿En qué época ocurrió la guerra en Inteligencia Artificial?,RN12103,3,no,Respuesta C,Explicación: esta respuesta es incorrecta.
+PN1210,8,Tecnología,42,Inteligencia Artificial,4,¿En qué época ocurrió la guerra en Inteligencia Artificial?,RN12104,4,sí,Respuesta D,Explicación: esta es la respuesta correcta.
+PN1211,9,Filosofía,43,Ética,1,¿Cuál es la capital de Ética?,RN12111,1,sí,Madrid,Explicación: esta es la respuesta correcta.
+PN1211,9,Filosofía,43,Ética,1,¿Cuál es la capital de Ética?,RN12112,2,no,Paris,Explicación: esta respuesta es incorrecta.
+PN1211,9,Filosofía,43,Ética,1,¿Cuál es la capital de Ética?,RN12113,3,no,London,Explicación: esta respuesta es incorrecta.
+PN1211,9,Filosofía,43,Ética,1,¿Cuál es la capital de Ética?,RN12114,4,no,Berlin,Explicación: esta respuesta es incorrecta.
+PN1212,9,Filosofía,43,Ética,2,¿Qué río es el más largo de Ética?,RN12121,1,sí,Amazonas,Explicación: esta es la respuesta correcta.
+PN1212,9,Filosofía,43,Ética,2,¿Qué río es el más largo de Ética?,RN12122,2,no,Nilo,Explicación: esta respuesta es incorrecta.
+PN1212,9,Filosofía,43,Ética,2,¿Qué río es el más largo de Ética?,RN12123,3,no,Misisipi,Explicación: esta respuesta es incorrecta.
+PN1212,9,Filosofía,43,Ética,2,¿Qué río es el más largo de Ética?,RN12124,4,no,Yangtsé,Explicación: esta respuesta es incorrecta.
+PN1213,9,Filosofía,43,Ética,3,¿Cuál es la montaña más alta en Ética?,RN12131,1,sí,Respuesta A,Explicación: esta es la respuesta correcta.
+PN1213,9,Filosofía,43,Ética,3,¿Cuál es la montaña más alta en Ética?,RN12132,2,no,Respuesta B,Explicación: esta respuesta es incorrecta.
+PN1213,9,Filosofía,43,Ética,3,¿Cuál es la montaña más alta en Ética?,RN12133,3,no,Respuesta C,Explicación: esta respuesta es incorrecta.
+PN1213,9,Filosofía,43,Ética,3,¿Cuál es la montaña más alta en Ética?,RN12134,4,no,Respuesta D,Explicación: esta respuesta es incorrecta.
+PN1214,9,Filosofía,43,Ética,4,¿En qué época ocurrió la guerra en Ética?,RN12141,1,no,Respuesta A,Explicación: esta respuesta es incorrecta.
+PN1214,9,Filosofía,43,Ética,4,¿En qué época ocurrió la guerra en Ética?,RN12142,2,no,Respuesta B,Explicación: esta respuesta es incorrecta.
+PN1214,9,Filosofía,43,Ética,4,¿En qué época ocurrió la guerra en Ética?,RN12143,3,no,Respuesta C,Explicación: esta respuesta es incorrecta.
+PN1214,9,Filosofía,43,Ética,4,¿En qué época ocurrió la guerra en Ética?,RN12144,4,sí,Respuesta D,Explicación: esta es la respuesta correcta.
+PN1215,9,Filosofía,44,Metafísica,1,¿Cuál es la capital de Metafísica?,RN12151,1,sí,Madrid,Explicación: esta es la respuesta correcta.
+PN1215,9,Filosofía,44,Metafísica,1,¿Cuál es la capital de Metafísica?,RN12152,2,no,Paris,Explicación: esta respuesta es incorrecta.
+PN1215,9,Filosofía,44,Metafísica,1,¿Cuál es la capital de Metafísica?,RN12153,3,no,London,Explicación: esta respuesta es incorrecta.
+PN1215,9,Filosofía,44,Metafísica,1,¿Cuál es la capital de Metafísica?,RN12154,4,no,Berlin,Explicación: esta respuesta es incorrecta.
+PN1216,9,Filosofía,44,Metafísica,2,¿Qué río es el más largo de Metafísica?,RN12161,1,sí,Amazonas,Explicación: esta es la respuesta correcta.
+PN1216,9,Filosofía,44,Metafísica,2,¿Qué río es el más largo de Metafísica?,RN12162,2,no,Nilo,Explicación: esta respuesta es incorrecta.
+PN1216,9,Filosofía,44,Metafísica,2,¿Qué río es el más largo de Metafísica?,RN12163,3,no,Misisipi,Explicación: esta respuesta es incorrecta.
+PN1216,9,Filosofía,44,Metafísica,2,¿Qué río es el más largo de Metafísica?,RN12164,4,no,Yangtsé,Explicación: esta respuesta es incorrecta.
+PN1217,9,Filosofía,44,Metafísica,3,¿Cuál es la montaña más alta en Metafísica?,RN12171,1,sí,Respuesta A,Explicación: esta es la respuesta correcta.
+PN1217,9,Filosofía,44,Metafísica,3,¿Cuál es la montaña más alta en Metafísica?,RN12172,2,no,Respuesta B,Explicación: esta respuesta es incorrecta.
+PN1217,9,Filosofía,44,Metafísica,3,¿Cuál es la montaña más alta en Metafísica?,RN12173,3,no,Respuesta C,Explicación: esta respuesta es incorrecta.
+PN1217,9,Filosofía,44,Metafísica,3,¿Cuál es la montaña más alta en Metafísica?,RN12174,4,no,Respuesta D,Explicación: esta respuesta es incorrecta.
+PN1218,9,Filosofía,44,Metafísica,4,¿En qué época ocurrió la guerra en Metafísica?,RN12181,1,no,Respuesta A,Explicación: esta respuesta es incorrecta.
+PN1218,9,Filosofía,44,Metafísica,4,¿En qué época ocurrió la guerra en Metafísica?,RN12182,2,no,Respuesta B,Explicación: esta respuesta es incorrecta.
+PN1218,9,Filosofía,44,Metafísica,4,¿En qué época ocurrió la guerra en Metafísica?,RN12183,3,no,Respuesta C,Explicación: esta respuesta es incorrecta.
+PN1218,9,Filosofía,44,Metafísica,4,¿En qué época ocurrió la guerra en Metafísica?,RN12184,4,sí,Respuesta D,Explicación: esta es la respuesta correcta.
+PN1219,9,Filosofía,45,Epistemología,1,¿Cuál es la capital de Epistemología?,RN12191,1,sí,Madrid,Explicación: esta es la respuesta correcta.
+PN1219,9,Filosofía,45,Epistemología,1,¿Cuál es la capital de Epistemología?,RN12192,2,no,Paris,Explicación: esta respuesta es incorrecta.
+PN1219,9,Filosofía,45,Epistemología,1,¿Cuál es la capital de Epistemología?,RN12193,3,no,London,Explicación: esta respuesta es incorrecta.
+PN1219,9,Filosofía,45,Epistemología,1,¿Cuál es la capital de Epistemología?,RN12194,4,no,Berlin,Explicación: esta respuesta es incorrecta.
+PN1220,9,Filosofía,45,Epistemología,2,¿Qué río es el más largo de Epistemología?,RN12201,1,sí,Amazonas,Explicación: esta es la respuesta correcta.
+PN1220,9,Filosofía,45,Epistemología,2,¿Qué río es el más largo de Epistemología?,RN12202,2,no,Nilo,Explicación: esta respuesta es incorrecta.
+PN1220,9,Filosofía,45,Epistemología,2,¿Qué río es el más largo de Epistemología?,RN12203,3,no,Misisipi,Explicación: esta respuesta es incorrecta.
+PN1220,9,Filosofía,45,Epistemología,2,¿Qué río es el más largo de Epistemología?,RN12204,4,no,Yangtsé,Explicación: esta respuesta es incorrecta.
+PN1221,9,Filosofía,45,Epistemología,3,¿Cuál es la montaña más alta en Epistemología?,RN12211,1,sí,Respuesta A,Explicación: esta es la respuesta correcta.
+PN1221,9,Filosofía,45,Epistemología,3,¿Cuál es la montaña más alta en Epistemología?,RN12212,2,no,Respuesta B,Explicación: esta respuesta es incorrecta.
+PN1221,9,Filosofía,45,Epistemología,3,¿Cuál es la montaña más alta en Epistemología?,RN12213,3,no,Respuesta C,Explicación: esta respuesta es incorrecta.
+PN1221,9,Filosofía,45,Epistemología,3,¿Cuál es la montaña más alta en Epistemología?,RN12214,4,no,Respuesta D,Explicación: esta respuesta es incorrecta.
+PN1222,9,Filosofía,45,Epistemología,4,¿En qué época ocurrió la guerra en Epistemología?,RN12221,1,no,Respuesta A,Explicación: esta respuesta es incorrecta.
+PN1222,9,Filosofía,45,Epistemología,4,¿En qué época ocurrió la guerra en Epistemología?,RN12222,2,no,Respuesta B,Explicación: esta respuesta es incorrecta.
+PN1222,9,Filosofía,45,Epistemología,4,¿En qué época ocurrió la guerra en Epistemología?,RN12223,3,no,Respuesta C,Explicación: esta respuesta es incorrecta.
+PN1222,9,Filosofía,45,Epistemología,4,¿En qué época ocurrió la guerra en Epistemología?,RN12224,4,sí,Respuesta D,Explicación: esta es la respuesta correcta.
+PN1223,10,Economía,46,Microeconomía,1,¿Cuál es la capital de Microeconomía?,RN12231,1,sí,Madrid,Explicación: esta es la respuesta correcta.
+PN1223,10,Economía,46,Microeconomía,1,¿Cuál es la capital de Microeconomía?,RN12232,2,no,Paris,Explicación: esta respuesta es incorrecta.
+PN1223,10,Economía,46,Microeconomía,1,¿Cuál es la capital de Microeconomía?,RN12233,3,no,London,Explicación: esta respuesta es incorrecta.
+PN1223,10,Economía,46,Microeconomía,1,¿Cuál es la capital de Microeconomía?,RN12234,4,no,Berlin,Explicación: esta respuesta es incorrecta.
+PN1224,10,Economía,46,Microeconomía,2,¿Qué río es el más largo de Microeconomía?,RN12241,1,sí,Amazonas,Explicación: esta es la respuesta correcta.
+PN1224,10,Economía,46,Microeconomía,2,¿Qué río es el más largo de Microeconomía?,RN12242,2,no,Nilo,Explicación: esta respuesta es incorrecta.
+PN1224,10,Economía,46,Microeconomía,2,¿Qué río es el más largo de Microeconomía?,RN12243,3,no,Misisipi,Explicación: esta respuesta es incorrecta.
+PN1224,10,Economía,46,Microeconomía,2,¿Qué río es el más largo de Microeconomía?,RN12244,4,no,Yangtsé,Explicación: esta respuesta es incorrecta.
+PN1225,10,Economía,46,Microeconomía,3,¿Cuál es la montaña más alta en Microeconomía?,RN12251,1,sí,Respuesta A,Explicación: esta es la respuesta correcta.
+PN1225,10,Economía,46,Microeconomía,3,¿Cuál es la montaña más alta en Microeconomía?,RN12252,2,no,Respuesta B,Explicación: esta respuesta es incorrecta.
+PN1225,10,Economía,46,Microeconomía,3,¿Cuál es la montaña más alta en Microeconomía?,RN12253,3,no,Respuesta C,Explicación: esta respuesta es incorrecta.
+PN1225,10,Economía,46,Microeconomía,3,¿Cuál es la montaña más alta en Microeconomía?,RN12254,4,no,Respuesta D,Explicación: esta respuesta es incorrecta.
+PN1226,10,Economía,46,Microeconomía,4,¿En qué época ocurrió la guerra en Microeconomía?,RN12261,1,no,Respuesta A,Explicación: esta respuesta es incorrecta.
+PN1226,10,Economía,46,Microeconomía,4,¿En qué época ocurrió la guerra en Microeconomía?,RN12262,2,no,Respuesta B,Explicación: esta respuesta es incorrecta.
+PN1226,10,Economía,46,Microeconomía,4,¿En qué época ocurrió la guerra en Microeconomía?,RN12263,3,no,Respuesta C,Explicación: esta respuesta es incorrecta.
+PN1226,10,Economía,46,Microeconomía,4,¿En qué época ocurrió la guerra en Microeconomía?,RN12264,4,sí,Respuesta D,Explicación: esta es la respuesta correcta.
+PN1227,10,Economía,47,Macroeconomía,1,¿Cuál es la capital de Macroeconomía?,RN12271,1,sí,Madrid,Explicación: esta es la respuesta correcta.
+PN1227,10,Economía,47,Macroeconomía,1,¿Cuál es la capital de Macroeconomía?,RN12272,2,no,Paris,Explicación: esta respuesta es incorrecta.
+PN1227,10,Economía,47,Macroeconomía,1,¿Cuál es la capital de Macroeconomía?,RN12273,3,no,London,Explicación: esta respuesta es incorrecta.
+PN1227,10,Economía,47,Macroeconomía,1,¿Cuál es la capital de Macroeconomía?,RN12274,4,no,Berlin,Explicación: esta respuesta es incorrecta.
+PN1228,10,Economía,47,Macroeconomía,2,¿Qué río es el más largo de Macroeconomía?,RN12281,1,sí,Amazonas,Explicación: esta es la respuesta correcta.
+PN1228,10,Economía,47,Macroeconomía,2,¿Qué río es el más largo de Macroeconomía?,RN12282,2,no,Nilo,Explicación: esta respuesta es incorrecta.
+PN1228,10,Economía,47,Macroeconomía,2,¿Qué río es el más largo de Macroeconomía?,RN12283,3,no,Misisipi,Explicación: esta respuesta es incorrecta.
+PN1228,10,Economía,47,Macroeconomía,2,¿Qué río es el más largo de Macroeconomía?,RN12284,4,no,Yangtsé,Explicación: esta respuesta es incorrecta.
+PN1229,10,Economía,47,Macroeconomía,3,¿Cuál es la montaña más alta en Macroeconomía?,RN12291,1,sí,Respuesta A,Explicación: esta es la respuesta correcta.
+PN1229,10,Economía,47,Macroeconomía,3,¿Cuál es la montaña más alta en Macroeconomía?,RN12292,2,no,Respuesta B,Explicación: esta respuesta es incorrecta.
+PN1229,10,Economía,47,Macroeconomía,3,¿Cuál es la montaña más alta en Macroeconomía?,RN12293,3,no,Respuesta C,Explicación: esta respuesta es incorrecta.
+PN1229,10,Economía,47,Macroeconomía,3,¿Cuál es la montaña más alta en Macroeconomía?,RN12294,4,no,Respuesta D,Explicación: esta respuesta es incorrecta.
+PN1230,10,Economía,47,Macroeconomía,4,¿En qué época ocurrió la guerra en Macroeconomía?,RN12301,1,no,Respuesta A,Explicación: esta respuesta es incorrecta.
+PN1230,10,Economía,47,Macroeconomía,4,¿En qué época ocurrió la guerra en Macroeconomía?,RN12302,2,no,Respuesta B,Explicación: esta respuesta es incorrecta.
+PN1230,10,Economía,47,Macroeconomía,4,¿En qué época ocurrió la guerra en Macroeconomía?,RN12303,3,no,Respuesta C,Explicación: esta respuesta es incorrecta.
+PN1230,10,Economía,47,Macroeconomía,4,¿En qué época ocurrió la guerra en Macroeconomía?,RN12304,4,sí,Respuesta D,Explicación: esta es la respuesta correcta.
+PN1231,10,Economía,48,Economía Internacional,1,¿Cuál es la capital de Economía Internacional?,RN12311,1,sí,Madrid,Explicación: esta es la respuesta correcta.
+PN1231,10,Economía,48,Economía Internacional,1,¿Cuál es la capital de Economía Internacional?,RN12312,2,no,Paris,Explicación: esta respuesta es incorrecta.
+PN1231,10,Economía,48,Economía Internacional,1,¿Cuál es la capital de Economía Internacional?,RN12313,3,no,London,Explicación: esta respuesta es incorrecta.
+PN1231,10,Economía,48,Economía Internacional,1,¿Cuál es la capital de Economía Internacional?,RN12314,4,no,Berlin,Explicación: esta respuesta es incorrecta.
+PN1232,10,Economía,48,Economía Internacional,2,¿Qué río es el más largo de Economía Internacional?,RN12321,1,sí,Amazonas,Explicación: esta es la respuesta correcta.
+PN1232,10,Economía,48,Economía Internacional,2,¿Qué río es el más largo de Economía Internacional?,RN12322,2,no,Nilo,Explicación: esta respuesta es incorrecta.
+PN1232,10,Economía,48,Economía Internacional,2,¿Qué río es el más largo de Economía Internacional?,RN12323,3,no,Misisipi,Explicación: esta respuesta es incorrecta.
+PN1232,10,Economía,48,Economía Internacional,2,¿Qué río es el más largo de Economía Internacional?,RN12324,4,no,Yangtsé,Explicación: esta respuesta es incorrecta.
+PN1233,10,Economía,48,Economía Internacional,3,¿Cuál es la montaña más alta en Economía Internacional?,RN12331,1,sí,Respuesta A,Explicación: esta es la respuesta correcta.
+PN1233,10,Economía,48,Economía Internacional,3,¿Cuál es la montaña más alta en Economía Internacional?,RN12332,2,no,Respuesta B,Explicación: esta respuesta es incorrecta.
+PN1233,10,Economía,48,Economía Internacional,3,¿Cuál es la montaña más alta en Economía Internacional?,RN12333,3,no,Respuesta C,Explicación: esta respuesta es incorrecta.
+PN1233,10,Economía,48,Economía Internacional,3,¿Cuál es la montaña más alta en Economía Internacional?,RN12334,4,no,Respuesta D,Explicación: esta respuesta es incorrecta.
+PN1234,10,Economía,48,Economía Internacional,4,¿En qué época ocurrió la guerra en Economía Internacional?,RN12341,1,no,Respuesta A,Explicación: esta respuesta es incorrecta.
+PN1234,10,Economía,48,Economía Internacional,4,¿En qué época ocurrió la guerra en Economía Internacional?,RN12342,2,no,Respuesta B,Explicación: esta respuesta es incorrecta.
+PN1234,10,Economía,48,Economía Internacional,4,¿En qué época ocurrió la guerra en Economía Internacional?,RN12343,3,no,Respuesta C,Explicación: esta respuesta es incorrecta.
+PN1234,10,Economía,48,Economía Internacional,4,¿En qué época ocurrió la guerra en Economía Internacional?,RN12344,4,sí,Respuesta D,Explicación: esta es la respuesta correcta.
+PN1235,11,Psicología,49,Psicoanálisis,1,¿Cuál es la capital de Psicoanálisis?,RN12351,1,sí,Madrid,Explicación: esta es la respuesta correcta.
+PN1235,11,Psicología,49,Psicoanálisis,1,¿Cuál es la capital de Psicoanálisis?,RN12352,2,no,Paris,Explicación: esta respuesta es incorrecta.
+PN1235,11,Psicología,49,Psicoanálisis,1,¿Cuál es la capital de Psicoanálisis?,RN12353,3,no,London,Explicación: esta respuesta es incorrecta.
+PN1235,11,Psicología,49,Psicoanálisis,1,¿Cuál es la capital de Psicoanálisis?,RN12354,4,no,Berlin,Explicación: esta respuesta es incorrecta.
+PN1236,11,Psicología,49,Psicoanálisis,2,¿Qué río es el más largo de Psicoanálisis?,RN12361,1,sí,Amazonas,Explicación: esta es la respuesta correcta.
+PN1236,11,Psicología,49,Psicoanálisis,2,¿Qué río es el más largo de Psicoanálisis?,RN12362,2,no,Nilo,Explicación: esta respuesta es incorrecta.
+PN1236,11,Psicología,49,Psicoanálisis,2,¿Qué río es el más largo de Psicoanálisis?,RN12363,3,no,Misisipi,Explicación: esta respuesta es incorrecta.
+PN1236,11,Psicología,49,Psicoanálisis,2,¿Qué río es el más largo de Psicoanálisis?,RN12364,4,no,Yangtsé,Explicación: esta respuesta es incorrecta.
+PN1237,11,Psicología,49,Psicoanálisis,3,¿Cuál es la montaña más alta en Psicoanálisis?,RN12371,1,sí,Respuesta A,Explicación: esta es la respuesta correcta.
+PN1237,11,Psicología,49,Psicoanálisis,3,¿Cuál es la montaña más alta en Psicoanálisis?,RN12372,2,no,Respuesta B,Explicación: esta respuesta es incorrecta.
+PN1237,11,Psicología,49,Psicoanálisis,3,¿Cuál es la montaña más alta en Psicoanálisis?,RN12373,3,no,Respuesta C,Explicación: esta respuesta es incorrecta.
+PN1237,11,Psicología,49,Psicoanálisis,3,¿Cuál es la montaña más alta en Psicoanálisis?,RN12374,4,no,Respuesta D,Explicación: esta respuesta es incorrecta.
+PN1238,11,Psicología,49,Psicoanálisis,4,¿En qué época ocurrió la guerra en Psicoanálisis?,RN12381,1,no,Respuesta A,Explicación: esta respuesta es incorrecta.
+PN1238,11,Psicología,49,Psicoanálisis,4,¿En qué época ocurrió la guerra en Psicoanálisis?,RN12382,2,no,Respuesta B,Explicación: esta respuesta es incorrecta.
+PN1238,11,Psicología,49,Psicoanálisis,4,¿En qué época ocurrió la guerra en Psicoanálisis?,RN12383,3,no,Respuesta C,Explicación: esta respuesta es incorrecta.
+PN1238,11,Psicología,49,Psicoanálisis,4,¿En qué época ocurrió la guerra en Psicoanálisis?,RN12384,4,sí,Respuesta D,Explicación: esta es la respuesta correcta.
+PN1239,11,Psicología,50,Conductismo,1,¿Cuál es la capital de Conductismo?,RN12391,1,sí,Madrid,Explicación: esta es la respuesta correcta.
+PN1239,11,Psicología,50,Conductismo,1,¿Cuál es la capital de Conductismo?,RN12392,2,no,Paris,Explicación: esta respuesta es incorrecta.
+PN1239,11,Psicología,50,Conductismo,1,¿Cuál es la capital de Conductismo?,RN12393,3,no,London,Explicación: esta respuesta es incorrecta.
+PN1239,11,Psicología,50,Conductismo,1,¿Cuál es la capital de Conductismo?,RN12394,4,no,Berlin,Explicación: esta respuesta es incorrecta.
+PN1240,11,Psicología,50,Conductismo,2,¿Qué río es el más largo de Conductismo?,RN12401,1,sí,Amazonas,Explicación: esta es la respuesta correcta.
+PN1240,11,Psicología,50,Conductismo,2,¿Qué río es el más largo de Conductismo?,RN12402,2,no,Nilo,Explicación: esta respuesta es incorrecta.
+PN1240,11,Psicología,50,Conductismo,2,¿Qué río es el más largo de Conductismo?,RN12403,3,no,Misisipi,Explicación: esta respuesta es incorrecta.
+PN1240,11,Psicología,50,Conductismo,2,¿Qué río es el más largo de Conductismo?,RN12404,4,no,Yangtsé,Explicación: esta respuesta es incorrecta.
+PN1241,11,Psicología,50,Conductismo,3,¿Cuál es la montaña más alta en Conductismo?,RN12411,1,sí,Respuesta A,Explicación: esta es la respuesta correcta.
+PN1241,11,Psicología,50,Conductismo,3,¿Cuál es la montaña más alta en Conductismo?,RN12412,2,no,Respuesta B,Explicación: esta respuesta es incorrecta.
+PN1241,11,Psicología,50,Conductismo,3,¿Cuál es la montaña más alta en Conductismo?,RN12413,3,no,Respuesta C,Explicación: esta respuesta es incorrecta.
+PN1241,11,Psicología,50,Conductismo,3,¿Cuál es la montaña más alta en Conductismo?,RN12414,4,no,Respuesta D,Explicación: esta respuesta es incorrecta.
+PN1242,11,Psicología,50,Conductismo,4,¿En qué época ocurrió la guerra en Conductismo?,RN12421,1,no,Respuesta A,Explicación: esta respuesta es incorrecta.
+PN1242,11,Psicología,50,Conductismo,4,¿En qué época ocurrió la guerra en Conductismo?,RN12422,2,no,Respuesta B,Explicación: esta respuesta es incorrecta.
+PN1242,11,Psicología,50,Conductismo,4,¿En qué época ocurrió la guerra en Conductismo?,RN12423,3,no,Respuesta C,Explicación: esta respuesta es incorrecta.
+PN1242,11,Psicología,50,Conductismo,4,¿En qué época ocurrió la guerra en Conductismo?,RN12424,4,sí,Respuesta D,Explicación: esta es la respuesta correcta.
+PN1243,11,Psicología,51,Cognitiva,1,¿Cuál es la capital de Cognitiva?,RN12431,1,sí,Madrid,Explicación: esta es la respuesta correcta.
+PN1243,11,Psicología,51,Cognitiva,1,¿Cuál es la capital de Cognitiva?,RN12432,2,no,Paris,Explicación: esta respuesta es incorrecta.
+PN1243,11,Psicología,51,Cognitiva,1,¿Cuál es la capital de Cognitiva?,RN12433,3,no,London,Explicación: esta respuesta es incorrecta.
+PN1243,11,Psicología,51,Cognitiva,1,¿Cuál es la capital de Cognitiva?,RN12434,4,no,Berlin,Explicación: esta respuesta es incorrecta.
+PN1244,11,Psicología,51,Cognitiva,2,¿Qué río es el más largo de Cognitiva?,RN12441,1,sí,Amazonas,Explicación: esta es la respuesta correcta.
+PN1244,11,Psicología,51,Cognitiva,2,¿Qué río es el más largo de Cognitiva?,RN12442,2,no,Nilo,Explicación: esta respuesta es incorrecta.
+PN1244,11,Psicología,51,Cognitiva,2,¿Qué río es el más largo de Cognitiva?,RN12443,3,no,Misisipi,Explicación: esta respuesta es incorrecta.
+PN1244,11,Psicología,51,Cognitiva,2,¿Qué río es el más largo de Cognitiva?,RN12444,4,no,Yangtsé,Explicación: esta respuesta es incorrecta.
+PN1245,11,Psicología,51,Cognitiva,3,¿Cuál es la montaña más alta en Cognitiva?,RN12451,1,sí,Respuesta A,Explicación: esta es la respuesta correcta.
+PN1245,11,Psicología,51,Cognitiva,3,¿Cuál es la montaña más alta en Cognitiva?,RN12452,2,no,Respuesta B,Explicación: esta respuesta es incorrecta.
+PN1245,11,Psicología,51,Cognitiva,3,¿Cuál es la montaña más alta en Cognitiva?,RN12453,3,no,Respuesta C,Explicación: esta respuesta es incorrecta.
+PN1245,11,Psicología,51,Cognitiva,3,¿Cuál es la montaña más alta en Cognitiva?,RN12454,4,no,Respuesta D,Explicación: esta respuesta es incorrecta.
+PN1246,11,Psicología,51,Cognitiva,4,¿En qué época ocurrió la guerra en Cognitiva?,RN12461,1,no,Respuesta A,Explicación: esta respuesta es incorrecta.
+PN1246,11,Psicología,51,Cognitiva,4,¿En qué época ocurrió la guerra en Cognitiva?,RN12462,2,no,Respuesta B,Explicación: esta respuesta es incorrecta.
+PN1246,11,Psicología,51,Cognitiva,4,¿En qué época ocurrió la guerra en Cognitiva?,RN12463,3,no,Respuesta C,Explicación: esta respuesta es incorrecta.
+PN1246,11,Psicología,51,Cognitiva,4,¿En qué época ocurrió la guerra en Cognitiva?,RN12464,4,sí,Respuesta D,Explicación: esta es la respuesta correcta.
+PN1247,12,Sociología,52,Estructura Social,1,¿Cuál es la capital de Estructura Social?,RN12471,1,sí,Madrid,Explicación: esta es la respuesta correcta.
+PN1247,12,Sociología,52,Estructura Social,1,¿Cuál es la capital de Estructura Social?,RN12472,2,no,Paris,Explicación: esta respuesta es incorrecta.
+PN1247,12,Sociología,52,Estructura Social,1,¿Cuál es la capital de Estructura Social?,RN12473,3,no,London,Explicación: esta respuesta es incorrecta.
+PN1247,12,Sociología,52,Estructura Social,1,¿Cuál es la capital de Estructura Social?,RN12474,4,no,Berlin,Explicación: esta respuesta es incorrecta.
+PN1248,12,Sociología,52,Estructura Social,2,¿Qué río es el más largo de Estructura Social?,RN12481,1,sí,Amazonas,Explicación: esta es la respuesta correcta.
+PN1248,12,Sociología,52,Estructura Social,2,¿Qué río es el más largo de Estructura Social?,RN12482,2,no,Nilo,Explicación: esta respuesta es incorrecta.
+PN1248,12,Sociología,52,Estructura Social,2,¿Qué río es el más largo de Estructura Social?,RN12483,3,no,Misisipi,Explicación: esta respuesta es incorrecta.
+PN1248,12,Sociología,52,Estructura Social,2,¿Qué río es el más largo de Estructura Social?,RN12484,4,no,Yangtsé,Explicación: esta respuesta es incorrecta.
+PN1249,12,Sociología,52,Estructura Social,3,¿Cuál es la montaña más alta en Estructura Social?,RN12491,1,sí,Respuesta A,Explicación: esta es la respuesta correcta.
+PN1249,12,Sociología,52,Estructura Social,3,¿Cuál es la montaña más alta en Estructura Social?,RN12492,2,no,Respuesta B,Explicación: esta respuesta es incorrecta.
+PN1249,12,Sociología,52,Estructura Social,3,¿Cuál es la montaña más alta en Estructura Social?,RN12493,3,no,Respuesta C,Explicación: esta respuesta es incorrecta.
+PN1249,12,Sociología,52,Estructura Social,3,¿Cuál es la montaña más alta en Estructura Social?,RN12494,4,no,Respuesta D,Explicación: esta respuesta es incorrecta.
+PN1250,12,Sociología,52,Estructura Social,4,¿En qué época ocurrió la guerra en Estructura Social?,RN12501,1,no,Respuesta A,Explicación: esta respuesta es incorrecta.
+PN1250,12,Sociología,52,Estructura Social,4,¿En qué época ocurrió la guerra en Estructura Social?,RN12502,2,no,Respuesta B,Explicación: esta respuesta es incorrecta.
+PN1250,12,Sociología,52,Estructura Social,4,¿En qué época ocurrió la guerra en Estructura Social?,RN12503,3,no,Respuesta C,Explicación: esta respuesta es incorrecta.
+PN1250,12,Sociología,52,Estructura Social,4,¿En qué época ocurrió la guerra en Estructura Social?,RN12504,4,sí,Respuesta D,Explicación: esta es la respuesta correcta.
+PN1251,12,Sociología,53,Cambio Social,1,¿Cuál es la capital de Cambio Social?,RN12511,1,sí,Madrid,Explicación: esta es la respuesta correcta.
+PN1251,12,Sociología,53,Cambio Social,1,¿Cuál es la capital de Cambio Social?,RN12512,2,no,Paris,Explicación: esta respuesta es incorrecta.
+PN1251,12,Sociología,53,Cambio Social,1,¿Cuál es la capital de Cambio Social?,RN12513,3,no,London,Explicación: esta respuesta es incorrecta.
+PN1251,12,Sociología,53,Cambio Social,1,¿Cuál es la capital de Cambio Social?,RN12514,4,no,Berlin,Explicación: esta respuesta es incorrecta.
+PN1252,12,Sociología,53,Cambio Social,2,¿Qué río es el más largo de Cambio Social?,RN12521,1,sí,Amazonas,Explicación: esta es la respuesta correcta.
+PN1252,12,Sociología,53,Cambio Social,2,¿Qué río es el más largo de Cambio Social?,RN12522,2,no,Nilo,Explicación: esta respuesta es incorrecta.
+PN1252,12,Sociología,53,Cambio Social,2,¿Qué río es el más largo de Cambio Social?,RN12523,3,no,Misisipi,Explicación: esta respuesta es incorrecta.
+PN1252,12,Sociología,53,Cambio Social,2,¿Qué río es el más largo de Cambio Social?,RN12524,4,no,Yangtsé,Explicación: esta respuesta es incorrecta.
+PN1253,12,Sociología,53,Cambio Social,3,¿Cuál es la montaña más alta en Cambio Social?,RN12531,1,sí,Respuesta A,Explicación: esta es la respuesta correcta.
+PN1253,12,Sociología,53,Cambio Social,3,¿Cuál es la montaña más alta en Cambio Social?,RN12532,2,no,Respuesta B,Explicación: esta respuesta es incorrecta.
+PN1253,12,Sociología,53,Cambio Social,3,¿Cuál es la montaña más alta en Cambio Social?,RN12533,3,no,Respuesta C,Explicación: esta respuesta es incorrecta.
+PN1253,12,Sociología,53,Cambio Social,3,¿Cuál es la montaña más alta en Cambio Social?,RN12534,4,no,Respuesta D,Explicación: esta respuesta es incorrecta.
+PN1254,12,Sociología,53,Cambio Social,4,¿En qué época ocurrió la guerra en Cambio Social?,RN12541,1,no,Respuesta A,Explicación: esta respuesta es incorrecta.
+PN1254,12,Sociología,53,Cambio Social,4,¿En qué época ocurrió la guerra en Cambio Social?,RN12542,2,no,Respuesta B,Explicación: esta respuesta es incorrecta.
+PN1254,12,Sociología,53,Cambio Social,4,¿En qué época ocurrió la guerra en Cambio Social?,RN12543,3,no,Respuesta C,Explicación: esta respuesta es incorrecta.
+PN1254,12,Sociología,53,Cambio Social,4,¿En qué época ocurrió la guerra en Cambio Social?,RN12544,4,sí,Respuesta D,Explicación: esta es la respuesta correcta.
+PN1255,12,Sociología,54,Cultura,1,¿Cuál es la capital de Cultura?,RN12551,1,sí,Madrid,Explicación: esta es la respuesta correcta.
+PN1255,12,Sociología,54,Cultura,1,¿Cuál es la capital de Cultura?,RN12552,2,no,Paris,Explicación: esta respuesta es incorrecta.
+PN1255,12,Sociología,54,Cultura,1,¿Cuál es la capital de Cultura?,RN12553,3,no,London,Explicación: esta respuesta es incorrecta.
+PN1255,12,Sociología,54,Cultura,1,¿Cuál es la capital de Cultura?,RN12554,4,no,Berlin,Explicación: esta respuesta es incorrecta.
+PN1256,12,Sociología,54,Cultura,2,¿Qué río es el más largo de Cultura?,RN12561,1,sí,Amazonas,Explicación: esta es la respuesta correcta.
+PN1256,12,Sociología,54,Cultura,2,¿Qué río es el más largo de Cultura?,RN12562,2,no,Nilo,Explicación: esta respuesta es incorrecta.
+PN1256,12,Sociología,54,Cultura,2,¿Qué río es el más largo de Cultura?,RN12563,3,no,Misisipi,Explicación: esta respuesta es incorrecta.
+PN1256,12,Sociología,54,Cultura,2,¿Qué río es el más largo de Cultura?,RN12564,4,no,Yangtsé,Explicación: esta respuesta es incorrecta.
+PN1257,12,Sociología,54,Cultura,3,¿Cuál es la montaña más alta en Cultura?,RN12571,1,sí,Respuesta A,Explicación: esta es la respuesta correcta.
+PN1257,12,Sociología,54,Cultura,3,¿Cuál es la montaña más alta en Cultura?,RN12572,2,no,Respuesta B,Explicación: esta respuesta es incorrecta.
+PN1257,12,Sociología,54,Cultura,3,¿Cuál es la montaña más alta en Cultura?,RN12573,3,no,Respuesta C,Explicación: esta respuesta es incorrecta.
+PN1257,12,Sociología,54,Cultura,3,¿Cuál es la montaña más alta en Cultura?,RN12574,4,no,Respuesta D,Explicación: esta respuesta es incorrecta.
+PN1258,12,Sociología,54,Cultura,4,¿En qué época ocurrió la guerra en Cultura?,RN12581,1,no,Respuesta A,Explicación: esta respuesta es incorrecta.
+PN1258,12,Sociología,54,Cultura,4,¿En qué época ocurrió la guerra en Cultura?,RN12582,2,no,Respuesta B,Explicación: esta respuesta es incorrecta.
+PN1258,12,Sociología,54,Cultura,4,¿En qué época ocurrió la guerra en Cultura?,RN12583,3,no,Respuesta C,Explicación: esta respuesta es incorrecta.
+PN1258,12,Sociología,54,Cultura,4,¿En qué época ocurrió la guerra en Cultura?,RN12584,4,sí,Respuesta D,Explicación: esta es la respuesta correcta.

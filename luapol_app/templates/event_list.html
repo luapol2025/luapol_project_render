@@ -1,0 +1,111 @@
+{% extends "base.html" %}
+
+{% block title %}Actividades Planificadas{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <!-- Título y Botón de Crear Bloque -->
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h1 class="text-secondary fw-bold">Actividades Planificadas</h1>
+        {% if can_create_block %}
+            <a href="{% url 'luapol_app:create_block' %}" class="btn btn-outline-primary">
+                <i class="fa fa-plus-circle"></i> Crear Nuevo Bloque
+            </a>
+        {% else %}
+            <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#blockModal">
+                Crear Nuevo Bloque
+            </button>
+        {% endif %}
+    </div>
+
+    <!-- Modal de Bloque Actual -->
+    <div class="modal fade" id="blockModal" tabindex="-1" aria-labelledby="blockModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-secondary fw-bold" id="blockModalLabel">Bloque Incompleto</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-muted">
+                    Por favor, completa el bloque actual antes de crear uno nuevo.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Acordeón de Secciones -->
+    <div class="accordion shadow-sm rounded border" id="accordionSections">
+        {% for section_id, section_data in eventos_por_seccion.items %}
+            <div class="accordion-item">
+                <!-- Título de Sección -->
+                <h2 class="accordion-header" id="headingSection{{ section_id }}">
+                    <button class="accordion-button collapsed text-secondary fw-bold fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSection{{ section_id }}" aria-expanded="false" aria-controls="collapseSection{{ section_id }}">
+                        {{ section_data.section_description }}
+                    </button>
+                </h2>
+                <!-- Contenido de la Sección -->
+                <div id="collapseSection{{ section_id }}" class="accordion-collapse collapse" aria-labelledby="headingSection{{ section_id }}" data-bs-parent="#accordionSections">
+                    <div class="accordion-body">
+                        <div class="accordion" id="accordionBloquesSection{{ section_id }}">
+                            {% for block_number, block_data in section_data.bloques.items %}
+                                <div class="accordion-item">
+                                    <!-- Título del Bloque -->
+                                    <h2 class="accordion-header" id="headingBloque{{ block_number }}">
+                                        <button class="accordion-button collapsed text-muted fw-semibold fs-6" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBloque{{ block_number }}" aria-expanded="false" aria-controls="collapseBloque{{ block_number }}">
+                                            Bloque {{ block_number }}: {{ block_data.block_description }}
+                                        </button>
+                                    </h2>
+                                    <!-- Contenido del Bloque -->
+                                    <div id="collapseBloque{{ block_number }}" class="accordion-collapse collapse" aria-labelledby="headingBloque{{ block_number }}" data-bs-parent="#accordionBloquesSection{{ section_id }}">
+                                        <div class="accordion-body">
+                                            <ul class="list-group">
+                                                {% for event in block_data.eventos %}
+                                                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                                                        <div>
+                                                            <h6 class="mb-0 text-secondary fw-bold">{{ event.title }}</h6>
+                                                        </div>
+                                                        {% if not event.locked %}
+                                                            <a href="{% url 'luapol_app:test_start' event.test_fk.id %}" class="btn btn-outline-success">
+                                                                <i class="fa fa-eye"></i> Acceder Test
+                                                            </a>
+                                                        {% else %}
+                                                            <button type="button" class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#lockedModal">
+                                                                <i class="fa fa-lock"></i> Bloqueado
+                                                            </button>
+                                                        {% endif %}
+                                                    </li>
+                                                {% endfor %}
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+
+        <!-- Modal para eventos bloqueados -->
+        <div class="modal fade" id="lockedModal" tabindex="-1" aria-labelledby="lockedModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="lockedModalLabel">Actividad Bloqueada</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Debes completar la actividad anterior para poder acceder a esta.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
